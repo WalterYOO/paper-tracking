@@ -40,6 +40,44 @@
 | 2026-05-11 | [MAGS-SLAM](#5-mags-slam-monocular-multi-agent-gaussian-splatting-slam-for-geometrically-and-photometrically-consistent-reconstruction) | [2605.10760](https://arxiv.org/abs/2605.10760) | cs.RO | 仅 RGB 的多智能体 3DGS SLAM 协同重建 |
 | 2026-05-11 | [VEGA](#6-vega-visual-encoder-grounding-alignment-for-spatially-aware-vision-language-action-models) | [2605.10485](https://arxiv.org/abs/2605.10485) | cs.RO | 3DGS 监督的 DINOv2-FiT3D 对齐 VLA 空间感知 |
 
+| 2026-05-10 | [ConFixGS](#1-confixgs-learning-to-fix-feedforward-3d-gaussian-splatting-with-confidence-aware-diffusion-priors-in-driving-scenes) | [2605.09688](https://arxiv.org/abs/2605.09688) | cs.CV | 置信感知扩散先修引导前向 3DGS 驾驶场景修复 |
+| 2026-05-10 | [CAGS](#2-cags-color-adaptive-volumetric-video-streaming-with-dynamic-3d-gaussian-splatting) | [2605.09279](https://arxiv.org/abs/2605.09279) | cs.GR | 矢量量化+颜色自适应，动态 3DGS 体视频流（SIGGRAPH'26） |
+| 2026-05-10 | [LagrangianSplats](#3-lagrangiansplats-divergence-free-transport-of-gaussian-primitives-for-fluid-reconstruction) | [2605.09299](https://arxiv.org/abs/2605.09299) | cs.GR | 无散度核+拉格朗日 3DGS，流体场重建 |
+| 2026-05-10 | [BEA-GS](#4-bea-gs-beyond-radiance-supervision-in-3dgs-for-precise-object-extraction) | [2605.09662](https://arxiv.org/abs/2605.09662) | cs.CV | 超越辐射监督的几何修正，精确 3D 物体提取（CVPR'26 Highlight） |
+| 2026-05-10 | [FrameTwin](#5-frametwin-curve-anchored-gaussian-alignment-from-sparse-views-for-adaptive-wireframe-3d-printing) | [2605.09362](https://arxiv.org/abs/2605.09362) | cs.GR | 曲线锚定高斯对齐，稀疏视角自适应线框 3D 打印 |
+| 2026-05-09 | [Relightable GS for VP](#1-relightable-gaussian-splatting-for-virtual-production-using-image-based-illumination) | [2605.09024](https://arxiv.org/abs/2605.09024) | cs.CV | 虚拟制片中基于图像照明的 3DGS 重光照 |
+| 2026-05-09 | [ReorgGS](#2-reorggs-equivalent-distribution-reorganization-for-3d-gaussian-splatting) | [2605.08739](https://arxiv.org/abs/2605.08739) | cs.CV | 已收敛 3DGS 的分布重组，改善优化器卡顿和浮动伪影 |
+| 2026-05-09 | [REAP](#3-reap-reinforcement-learning-end-to-end-autonomous-parking-with-gaussian-splatting-simulator-for-real2sim2real-transfer) | [2605.08713](https://arxiv.org/abs/2605.08713) | cs.RO | 3DGS 模拟器中强化学习端到端自动泊车 |
+| 2026-05-09 | [TIGAS](#4-thin-client-interactive-gaussian-adaptive-streaming-over-http3) | [2605.08699](https://arxiv.org/abs/2605.08699) | eess.IV | HTTP/3 轻量端 3DGS 自适应流式传输 |
+| 2026-05-08 | [GD-DIFF](#1-from-pixels-to-primitives-scene-change-detection-in-3d-gaussian-splatting) | [2605.07203](https://arxiv.org/abs/2605.07203) | cs.CV | 直接从高斯基元属性检测场景变化，多视角一致 |
+| 2026-05-08 | [SatSurfGS](#2-satsurfgs-generalizable-2d-gaussian-splatting-for-sparse-view-satellite-surface-reconstruction) | [2605.07181](https://arxiv.org/abs/2605.07181) | cs.CV | 2DGS 可泛化稀疏视角卫星表面重建 |
+| 2026-05-08 | [AsyncEvGS](#3-asyncevs-asynchronous-event-assisted-gaussian-splatting-for-handheld-motion-blurred-scenes) | [2605.07192](https://arxiv.org/abs/2605.07192) | cs.CV | 异步事件辅助 3DGS，手持运动模糊场景重建 |
+| 2026-05-08 | [SplitGS-Loc](#4-disambiguating-2d-3d-correspondences-in-gaussian-splatting-based-feature-fields-for-visual-localization) | [2605.07351](https://arxiv.org/abs/2605.07351) | cs.CV | 高斯分裂消歧 2D-3D 对应关系，视觉定位 |
+| 2026-05-08 | [Differentiable Ray Tracing](#5-differentiable-ray-tracing-with-gaussians-for-unified-radio-propagation-simulation-and-view-synthesis) | [2605.07781](https://arxiv.org/abs/2605.07781) | cs.CV | 高斯可微光线追踪，统一射频传播与视图合成 |
+| 2026-05-08 | [High-Fidelity Surface Splatting](#6-high-fidelity-surface-splatting-based-3d-reconstruction-from-multi-view-images) | [2605.07254](https://arxiv.org/abs/2605.07254) | cs.CV | 多项式核 IMLS 表面光栅化，高频几何保真 |
+| 2026-05-08 | [DeG](#7-generative-3d-gaussians-with-learned-density-control) | [2605.16355](https://arxiv.org/abs/2605.16355) | cs.GR | 学习密度控制的生成式 3DGS，Octree+扩散模型（SIGGRAPH'26） |
+| 2026-05-08 | [SplatWeaver](#8-splatweaver-learning-to-allocate-gaussian-primitives-for-generalizable-novel-view-synthesis) | [2605.07287](https://arxiv.org/abs/2605.07287) | cs.CV | 动态分配高斯基元数量的可泛化新视角合成 |
+| 2026-05-07 | [AdpSplit](#1-adpsplit-error-driven-adaptive-splitting-for-faster-geometry-discovery-in-3d-gaussian-splatting) | [2605.06876](https://arxiv.org/abs/2605.06876) | cs.CV | 误差驱动自适应分裂，减少加密迭代加速训练 |
+| 2026-05-07 | [OpenGaFF](#2-opengaff-open-vocabulary-gaussian-feature-field-with-codebook-attention) | [2605.06088](https://arxiv.org/abs/2605.06088) | cs.CV | 码本注意力开放词汇高斯特征场 |
+| 2026-05-07 | [3DSS](#3-3dss-3d-surface-splatting-for-inverse-rendering) | [2605.05876](https://arxiv.org/abs/2605.05876) | cs.GR | 首个基于表面光栅化的可微逆渲染渲染器 |
+| 2026-05-06 | [CoherentRaster](#1-coherentraster-efficient-3d-gaussian-splatting-for-light-field-displays) | [2605.04509](https://arxiv.org/abs/2605.04509) | cs.GR | 子像素光栅化+跨视角属性复用，光场显示实时渲染 |
+| 2026-05-06 | [Ilov3Splat](#2-ilov3splat-instance-level-open-vocabulary-3d-scene-understanding-in-gaussian-splatting) | [2605.04506](https://arxiv.org/abs/2605.04506) | cs.CV | 实例级开放词汇 3D 场景理解（ICPR'26） |
+| 2026-05-06 | [QuadBox](#3-quadbox-accelerating-3d-gaussian-splatting-with-geometry-aware-boxes) | [2605.04844](https://arxiv.org/abs/2605.04844) | cs.CV | 几何感知四包围盒，3DGS 渲染加速 1.85x（ICIP'26） |
+| 2026-05-06 | [Aes3D](#4-aes3d-aesthetic-assessment-in-3d-gaussian-splatting) | [2605.05155](https://arxiv.org/abs/2605.05155) | cs.CV | 首个 3DGS 场景美学评估框架与数据集 |
+| 2026-05-06 | [ULF-Loc](#5-ulf-loc-unbiased-landmark-feature-for-robust-visual-localization-with-3d-gaussian-splatting) | [2605.04730](https://arxiv.org/abs/2605.04730) | cs.CV | 无偏地标特征，3DGS 视觉定位（CVPR'26 Highlight） |
+| 2026-05-06 | [Ground4D](#6-ground4d-spatially-grounded-feedforward-4d-reconstruction-for-unstructured-off-road-scenes) | [2605.04435](https://arxiv.org/abs/2605.04435) | cs.CV | 空间锚定前向 4D 重建，非结构化越野场景 |
+| 2026-05-05 | [FreeTimeGS++](#1-freetimesgs-secrets-of-dynamic-gaussian-splatting-and-their-principles) | [2605.03337](https://arxiv.org/abs/2605.03337) | cs.CV | 4DGS 关键因子分析，门控边缘化+神经速度场 |
+| 2026-05-04 | [HumanSplatHMR](#1-humansplathmr-closing-the-loop-between-human-mesh-recovery-and-gaussian-splatting-avatar) | [2605.02784](https://arxiv.org/abs/2605.02784) | cs.CV | 闭合人体姿态估计与 3DGS 数字人渲染循环 |
+| 2026-05-03 | [3DGS for ADS Editing](#1-from-concept-to-capability-evaluating-3d-gaussian-splatting-for-synthetic-scene-editing-in-autonomous-driving) | [2605.01995](https://arxiv.org/abs/2605.01995) | cs.CV | 3DGS 自动驾驶合成场景编辑 fidelity 评估 |
+| 2026-05-03 | [GETA-3DGS](#2-geta-3dgs-automatic-joint-structured-pruning-and-quantization-for-3d-gaussian-splatting) | [2605.02086](https://arxiv.org/abs/2605.02086) | cs.LG | 端到端联合结构化剪枝与量化，约 5x 压缩 |
+| 2026-05-03 | [GLMap](#3-multi-scale-gaussian-language-map-for-zero-shot-embodied-navigation-and-reasoning) | [2605.01736](https://arxiv.org/abs/2605.01736) | cs.CV | 多尺度高斯-语言地图，零样本具身导航（CVPR'26） |
+| 2026-05-02 | [SplAttN](#1-splatttn-bridging-2d-and-3d-with-gaussian-soft-splatting-and-attention-for-point-cloud-completion) | [2605.01466](https://arxiv.org/abs/2605.01466) | cs.CV | 高斯软光栅化替代硬投影，点云补全（ICML'26 Spotlight） |
+| 2026-05-02 | [DMP for IL](#2-a-principled-approach-for-creating-high-fidelity-synthetic-demonstrations-for-imitation-learning) | [2605.01232](https://arxiv.org/abs/2605.01232) | cs.RO | 3DGS 场景+DMP 生成高保真模仿学习演示 |
+| 2026-05-02 | [TAIL-Safe](#3-tail-safe-task-agnostic-safety-monitoring-for-imitation-learning-policies) | [2605.01195](https://arxiv.org/abs/2605.01195) | cs.RO | 3DGS 数字孪生学习失败数据，安全监控 IL 策略 |
+| 2026-05-01 | [2D-SuGaR](#1-2d-sugar-surface-aware-gaussian-splatting-for-geometrically-accurate-mesh-reconstruction) | [2605.00569](https://arxiv.org/abs/2605.00569) | cs.CV | 单目深度法线先验增强 2DGS，精确网格重建 |
+| 2026-05-01 | [LeGS](#2-beyond-heuristics-learnable-density-control-for-3d-gaussian-splatting) | [2605.00408](https://arxiv.org/abs/2605.00408) | cs.CV | 强化学习替代启发式密度控制 |
+| 2026-05-01 | [GOR-IS](#3-gor-is-3d-gaussian-object-removal-in-the-intrinsic-space) | [2605.00498](https://arxiv.org/abs/2605.00498) | cs.CV | 内秉空间 3D 高斯物体移除，物理一致光照 |
+
 ## 2026-05-18
 
 ### 1. PanoWorld: A Generative Spatial World Model for Consistent Whole-House Panorama Synthesis
@@ -409,3 +447,403 @@
 - **类别**: cs.RO
 
 **摘要**: VLA 模型的视觉骨干缺乏精确空间感知。VEGA 将 VLA 视觉编码器输出直接与具有空间感知特征对齐，后者来自 DINOv2-FiT3D（经多视角一致 3DGS 监督微调）。在视觉编码器层级对齐避免了语言语义纠缠。轻量投影器在推理时可丢弃，零额外开销。在仿真和真实操作任务上达到隐式空间定位 SOTA。
+
+## 2026-05-10
+
+### 1. ConFixGS: Learning to Fix Feedforward 3D Gaussian Splatting with Confidence-Aware Diffusion Priors in Driving Scenes
+
+- **arXiv**: [2605.09688](https://arxiv.org/abs/2605.09688)
+- **作者**: Rui Song, Tianhui Cai, Markus Gross, Xingcheng Zhou et al.
+- **类别**: cs.CV
+
+**摘要**: 前向 3DGS 在轨迹型稀疏视角驾驶场景中表现不佳。现有高斯修复方法主要针对优化型 3DGS，而基于扩散的修复通常局限于观测视角附近的迭代精炼。ConFixGS 为即插即用方法，从预训练前向模型出发，生成扩散增强的局部伪目标并通过重投影交叉验证，生成密集置信度图引导修复。在 Waymo、nuScenes 和 KITTI 上，PSNR 提升达 3.68 dB，FID 降低近一半。
+
+---
+
+### 2. CAGS: Color-Adaptive Volumetric Video Streaming with Dynamic 3D Gaussian Splatting
+
+- **arXiv**: [2605.09279](https://arxiv.org/abs/2605.09279)
+- **作者**: Daheng Yin, Yili Jin, Jianxin Shi, Isaac Ding et al.
+- **类别**: cs.GR, cs.CV, cs.MM, cs.NI, eess.IV
+- **备注**: SIGGRAPH 2026 录用
+
+**摘要**: 面向体视频流传输的 3DGS 自适应方案。现有基于密度的 LoD 方法不适用于高斯表示，会导致可见空洞和严重质量退化。研究发现属性压缩主要导致颜色失真，可通过参考图像在渲染端校正。CAGS 提出 Color-Adaptive 方案，使用矢量量化建立 LoD 并用低分辨率参考图校正颜色，在波动产量下 PSNR 超越现有系统 5-20 dB。
+
+---
+
+### 3. LagrangianSplats: Divergence-Free Transport of Gaussian Primitives for Fluid Reconstruction
+
+- **arXiv**: [2605.09299](https://arxiv.org/abs/2605.09299)
+- **作者**: Ningxiao Tao, Baoquan Chen, Mengyu Chu
+- **类别**: cs.GR, cs.LG
+
+**摘要**: 从稀疏 2D 视频重建 3D 流体速度场。现有方法通过软约束施加输运一致性和物理有效性，常导致精度妥协。本文使用连续无散度核参数化速度场，驱动拉格朗日 3DGS 平流，从结构上保证不可压缩性和长程输运连贯性。配合滑动窗口方案高效传播梯度，在合成和真实数据集上超越 SOTA。
+
+---
+
+### 4. BEA-GS: BEyond RAdiance Supervision in 3DGS for Precise Object Extraction
+
+- **arXiv**: [2605.09662](https://arxiv.org/abs/2605.09662)
+- **作者**: Alessio Mazzucchelli, Maria Naranjo-Almeida, Jorge Bustos-Sanchez, Mariella Dimiccoli et al.
+- **类别**: cs.CV
+- **备注**: CVPR 2026 Highlight 录用
+
+**摘要**: 3DGS 的语义表示通常不优化底层几何，使得物体级编辑和资产提取困难。BEA-GS 提出两项新损失：一项通过光栅化反向传播修改可见高斯的几何以贴合语义边界，另一项不经过光栅化直接修改不可见高斯的几何。与 12 种 SOTA 方法在 4 个数据集上的 exhaustive 比较，边界分割效果最佳。
+
+---
+
+### 5. FrameTwin: Curve-Anchored Gaussian Alignment from Sparse Views for Adaptive Wireframe 3D Printing
+
+- **arXiv**: [2605.09362](https://arxiv.org/abs/2605.09362)
+- **作者**: Wenting Wang, Zhuo Huang, Kun Qian, Neelotpal Dutta et al.
+- **类别**: cs.GR, cs.CV
+
+**摘要**: 面向自适应线框 3D 打印的曲线锚定高斯对齐框架。将高斯核约束在参数曲线上，从稀疏视角捕捉细长线框结构的形变，形成紧凑的几何感知编码。通过可微渲染管线估计神经形变场，将部分打印的目标模型与制造中观测到的形变结构对齐，实现打印轨迹的自适应更新。
+
+---
+
+## 2026-05-09
+
+### 1. Relightable Gaussian Splatting for Virtual Production Using Image-Based Illumination
+
+- **arXiv**: [2605.09024](https://arxiv.org/abs/2605.09024)
+- **作者**: Adrian Azzarelli, Nantheera Anantrasirichai, James Pollock, David R. Bull
+- **类别**: cs.CV, cs.GR, cs.MM, eess.IV
+
+**摘要**: 虚拟制片中 LED 墙同时提供背景图像和基于图像的照明，限制了后期编辑灵活性。本文提出面向 VP 的 3DGS 重建与重光照框架，利用已知背景图像条件化重光照过程，避免依赖环境贴图。为每个基元参数化 UV 坐标、强度值和分辨率修正器，通过 mipmap 直接在图像空间采样背景纹理。高效（<3GB RAM, <5GB VRAM, <2小时训练, ~35 FPS）且支持任意输出变量渲染。
+
+---
+
+### 2. ReorgGS: Equivalent Distribution Reorganization for 3D Gaussian Splatting
+
+- **arXiv**: [2605.08739](https://arxiv.org/abs/2605.08739)
+- **作者**: Luchao Wang, Kaimin Liao, Qian Ren, Hua Wang et al.
+- **类别**: cs.CV
+
+**摘要**: 已收敛的 3DGS 模型可能存在参数化退化：高不透明度浮动器通过 alpha 混合减弱真实表面的梯度，冗余重叠簇创建强耦合参数块。ReorgGS 将现有高斯集视为经验概率场，从中重采样中心、用 kNN 估计局部各异性协方差、初始化低不透明度后继续优化。不同于仅重置不透明度，ReorgGS 重建了中心、协方差和可见性结构，在相同额外优化预算下提升拟合质量、抑制持续浮动器。
+
+---
+
+### 3. REAP: Reinforcement-Learning End-to-End Autonomous Parking with Gaussian Splatting Simulator for Real2Sim2Real Transfer
+
+- **arXiv**: [2605.08713](https://arxiv.org/abs/2605.08713)
+- **作者**: Changze Li, Zhe Chen, Shaoyu Chen, Lisen Mu et al.
+- **类别**: cs.RO, cs.AI
+
+**摘要**: 端到端自动泊车方法。REAP 在不对称强化学习框架内使用 SAC 算法，通过行为克隆蒸馏规则规划器能力，引入软预测碰撞惩罚机制。使用 3DGS 将现实场景转换为数字场景构建 Real2Sim2Real 模拟器，使训练的 RL 网络可直接迁移到真实场景，在极窄机械车位中验证了端到端 RL 泊车的可行性。
+
+---
+
+### 4. Thin-Client Interactive Gaussian Adaptive Streaming over HTTP/3
+
+- **arXiv**: [2605.08699](https://arxiv.org/abs/2605.08699)
+- **作者**: Emanuele Artioli, Philipp Fößl, Daniele Lorenzi, Farzad Tashtarian et al.
+- **类别**: eess.IV, cs.ET, cs.MM
+
+**摘要**: TIGAS 为远程渲染框架，将 3DGS 光栅化卸载到后端，通过 QUIC 向轻量 Web 客户端流式传输依赖视角的 2D 投影，最小化队头阻塞。专用 ABR 算法根据波动网络条件自适应渲染质量，在严格 6DoF 交互约束内保持运动到光子延迟。后端渲染帧低于 10ms，平均 SSIM 0.88。
+
+---
+
+## 2026-05-08
+
+### 1. From Pixels to Primitives: Scene Change Detection in 3D Gaussian Splatting
+
+- **arXiv**: [2605.07203](https://arxiv.org/abs/2605.07203)
+- **作者**: Chamuditha Jayanga Galappaththige, Jason Lai, Timothy Patten, Donald Dansereau et al.
+- **类别**: cs.CV
+
+**摘要**: GD-DIFF 将 3DGS 场景变化检测从像素空间转移到基元空间。直接利用基元属性（位置、各异性协方差、颜色）进行变化检测，提出各异性几何和光度漂移模型及每基元可观测性项。变化图天然多视角一致，且可分别评分几何和外观变化，区分结构性变化与表面级变化。比先前 SOTA 提升约 17% mIoU。
+
+---
+
+### 2. SatSurfGS: Generalizable 2D Gaussian Splatting for Sparse-View Satellite Surface Reconstruction
+
+- **arXiv**: [2605.07181](https://arxiv.org/abs/2605.07181)
+- **作者**: Min Chen, Wei Guo, Bin Wang, Wen Li et al.
+- **类别**: cs.CV
+
+**摘要**: 面向卫星图像的稀疏视角表面重建。卫星成像条件下多视角匹配的可靠性在空间上高度不均匀。SatSurfGS 基于 2DGS，提出由粗到精的高斯属性预测框架，在特征学习、高斯参数估计、训练优化三个层级显式建模局部几何可靠性：置信感知单目多视图特征融合、跨阶段自一致残差引导、置信双向路由损失。
+
+---
+
+### 3. AsyncEvGS: Asynchronous Event-Assisted Gaussian Splatting for Handheld Motion-Blurred Scenes
+
+- **arXiv**: [2605.07192](https://arxiv.org/abs/2605.07192)
+- **作者**: Jun Dai, Renbiao Jin, Bo Xu, Yutian Chen et al.
+- **类别**: cs.CV
+
+**摘要**: 3DGS 在严重运动模糊输入下失效。AsyncEvGS 提出灵活的高分辨率异步 RGB-事件双相机系统和对应重建框架：先从事件数据重建清晰图像，再通过 VGGT 跨域位姿估计获得鲁棒 3DGS 初始化，优化中使用结构驱动事件损失和视角一致性正则化。同时贡献了 AsyncEv-Deblur 新数据集。
+
+---
+
+### 4. Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization
+
+- **arXiv**: [2605.07351](https://arxiv.org/abs/2605.07351)
+- **作者**: Miso Lee, Sangeek Hyun, Yerim Jeon, Jae-Pil Heo
+- **类别**: cs.CV
+
+**摘要**: 基于 3DGS 的特征场在 2D-3D 匹配中存在固有不适定问题：高斯的体素范围导致多对一映射，使 PnP 位姿估计不稳定。SplitGS-Loc 提出高斯混合模型分裂，将每个高斯分解为更小的子高斯，用精确一对一替换模糊的多对一对应。同时利用光栅化组合权重选择多视图一致的高斯子集，实现 SOTA 定位精度。
+
+---
+
+### 5. Differentiable Ray Tracing with Gaussians for Unified Radio Propagation Simulation and View Synthesis
+
+- **arXiv**: [2605.07781](https://arxiv.org/abs/2605.07781)
+- **作者**: Niklas Vaara, Lam Huynh, Pekka Sangi, Miguel Bordallo López, Janne Heikkilä
+- **类别**: cs.CV
+
+**摘要**: 3DGS 优化 alpha 混合光学外观而非射线可交几何，而射频数字孪生需要确定性的多弹跳路径。本文将高斯基元嵌入硬件加速的光线追踪结构中作为底层空间表示，从纯视觉重建中提取物理有意义的信道冲激响应，证明神经重建可作为电磁传播仿真和照片级视图合成的统一空间表示。
+
+---
+
+### 6. High-Fidelity Surface Splatting-Based 3D Reconstruction from Multi-View Images
+
+- **arXiv**: [2605.07254](https://arxiv.org/abs/2605.07254)
+- **作者**: Nandhana Sunil, Abhirami R Iyer, Avirup Mandal
+- **类别**: cs.CV, cs.GR
+
+**摘要**: 改进 IMLS（隐式移动最小二乘）的直接点云到符号距离和纹理场转换方法。现有 IMLS 使用指数核难以表现高频细节。本文引入具有局部支撑的紧致多项式核，配合随机正则化和 Laplacian 滤波，在多视图表面重建和渲染上均达到 SOTA。
+
+---
+
+### 7. Generative 3D Gaussians with Learned Density Control (DeG)
+
+- **arXiv**: [2605.16355](https://arxiv.org/abs/2605.16355)
+- **作者**: Runjie Yan, Yan-Pei Cao, Peng Wang, Ding Liang, Yuan-Chen Guo
+- **类别**: cs.GR, cs.CV
+- **备注**: SIGGRAPH 2026 Conference Papers 录用
+
+**摘要**: DeG 将高斯中心建模为 Octree 上可学习概率密度函数的采样，联合优化空间密度和高斯属性以在几何复杂区域自然聚集基元。提出可微渲染损失梯度作为离散加密/剪枝启发式的连续替代。训练潜扩散模型进行单图到 3D 生成，提出 VecSeq 将无序集结构潜变量重新索引为确定性 Sobol 序列。
+
+---
+
+### 8. SplatWeaver: Learning to Allocate Gaussian Primitives for Generalizable Novel View Synthesis
+
+- **arXiv**: [2605.07287](https://arxiv.org/abs/2605.07287)
+- **作者**: Yecong Wan, Fan Li, Mingwen Shao, Wangmeng Zuo
+- **类别**: cs.CV
+
+**摘要**: 可泛化新视角合成中，现有前向方法为每像素或体素分配固定数量高斯，忽略了空间变化的场景复杂度。SplatWeaver 引入基数高斯专家和像素级路由方案，每个专家专门生成 0 到 M 个特定数量基元，路由方案根据区域复杂度自适应决定每位置分配的基元数量。配合高频先验引导和路由正则化。
+
+---
+
+## 2026-05-07
+
+### 1. AdpSplit: Error-Driven Adaptive Splitting for Faster Geometry Discovery in 3D Gaussian Splatting
+
+- **arXiv**: [2605.06876](https://arxiv.org/abs/2605.06876)
+- **作者**: Yongjae Lee, Jingxing Li, Abhay Kumar Yadav, Rama Chellappa, Deliang Fan
+- **类别**: cs.CV
+
+**摘要**: 3DGS 的二元分裂算子需要多轮加密迭代才能展现精细细节，是高效训练调度的瓶颈。AdpSplit 根据 L1 像素误差区域统计确定分裂子代数量和初始化子代参数，减少加密迭代次数。在 MipNeRF360、DeepBlending 和 Tanks&Temples 上，作为标准分裂算子的即插即用替换，将多种加速 3DGS 管线的训练时间减少 9.2%-22.3%。
+
+---
+
+### 2. OpenGaFF: Open-Vocabulary Gaussian Feature Field with Codebook Attention
+
+- **arXiv**: [2605.06088](https://arxiv.org/abs/2605.06088)
+- **作者**: Kunyi Li, Michael Niemeyer, Sen Wang, Stefano Gasperini et al.
+- **类别**: cs.CV
+
+**摘要**: 基于 3DGS 的开放词汇 3D 场景理解中，多视角语义预测存在空间不一致。OpenGaFF 提出高斯特征场，将语义建模为高斯几何和外观的连续函数，通过显式条件化几何结构加强语义-几何耦合。结构化码本作为共享语义先验，码本引导注意力机制通过相似度匹配检索语言特征，降低物体内特征方差。
+
+---
+
+### 3. 3DSS: 3D Surface Splatting for Inverse Rendering
+
+- **arXiv**: [2605.05876](https://arxiv.org/abs/2605.05876)
+- **作者**: Mae Younes, Adnane Boukhayma
+- **类别**: cs.GR, cs.CV
+
+**摘要**: 首个基于表面光栅化的可微逆渲染渲染器。3DSS 将表面分离问题直接表述为重建核的问题，提出基于覆盖率的合成模型，每层不透明度直接从累积的椭圆加权平均重建权重产生。结合前向微面着色和共优化 HDR 环境光照，联合恢复形状、空间变化 BRDF 材质和光照。
+
+---
+
+## 2026-05-06
+
+### 1. CoherentRaster: Efficient 3D Gaussian Splatting for Light Field Displays
+
+- **arXiv**: [2605.04509](https://arxiv.org/abs/2605.04509)
+- **作者**: Gyujin Sim, Seungjoo Shin, Hosung Jeon, Gwangsoon Lee et al.
+- **类别**: cs.GR
+
+**摘要**: 光场显示需要渲染编码多视角观察的隔行图像，3DGS 直接扩展计算成本高。CoherentRaster 进行子像素级光栅化，通过跨视角连贯属性复用消除相邻视角间的冗余计算，并应用视角连贯重映射恢复被隔行子像素布局降低的 warp 级内存效率。在消费级硬件上实现实时高质量光场合成。
+
+---
+
+### 2. Ilov3Splat: Instance-Level Open-Vocabulary 3D Scene Understanding in Gaussian Splatting
+
+- **arXiv**: [2605.04506](https://arxiv.org/abs/2605.04506)
+- **作者**: Binh Long Nguyen, Kien Nguyen, Sridha Sridharan, Clinton Fookes, Peyman Moghadam
+- **类别**: cs.CV, cs.AI
+- **备注**: ICPR 2026 录用
+
+**摘要**: 基于 3DGS 的实例级开放词汇 3D 场景理解。多分辨率哈希编码高效编码语言对齐的 CLIP 特征，在 3D 空间中实现密集连贯的语言定位；使用对比损失在 SAM 掩码上训练实例特征场，支持跨视角细粒度物体区分。推理时 CLIP 编码查询与学习特征匹配，后经两阶段 3D 聚类检索相关高斯组。
+
+---
+
+### 3. QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes
+
+- **arXiv**: [2605.04844](https://arxiv.org/abs/2605.04844)
+- **作者**: Xinze Li, Bohan Yang, Pengxu Chen, Yiyuan Wang et al.
+- **类别**: cs.CV, cs.GR
+- **备注**: ICIP 2026 录用
+
+**摘要**: 利用四个轴对齐包围盒以离散方式紧密封装投影高斯。推导几何感知拉伸因子构建 tile 对齐的 QuadBox，覆盖椭圆投影并最大程度排除无关 tile。QPass 单遍 tile 遍历算法充分利用 QuadBox 的离散性质，用简单区间测试完成 tile 交集检查，渲染加速 1.85x。
+
+---
+
+### 4. Aes3D: Aesthetic Assessment in 3D Gaussian Splatting
+
+- **arXiv**: [2605.05155](https://arxiv.org/abs/2605.05155)
+- **作者**: Chuanzhi Xu, Boyu Wei, Haoxian Zhou, Xuanhua Yin et al.
+- **类别**: cs.CV, cs.AI
+
+**摘要**: 首个 3DGS 场景美学评估框架。包含 Aesthetic3D 数据集（首个 3D 场景美学评估数据集）和 Aes3DGSNet（轻量模型直接从 3DGS 表示预测场景级美学分数）。模型仅操作 3D 高斯基元，无需渲染多视图图像，降低计算成本和硬件要求。
+
+---
+
+### 5. ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting
+
+- **arXiv**: [2605.04730](https://arxiv.org/abs/2605.04730)
+- **作者**: Yingdong Gu, Shaocheng Yan, Zhenjun Zhao, Yuan Kou et al.
+- **类别**: cs.CV
+- **备注**: CVPR 2026 Highlight 录用
+
+**摘要**: 3DGS 的 alpha 混合优化在 3D 点特征中引入固有偏差，来自个体高斯与邻居高斯的纠缠。ULF-Loc 用几何加权特征融合替代有偏特征优化，引入关键点共识地标采样选择可靠高斯、局部几何一致性验证拒绝伪像导致的错误匹配。在 Cambridge Landmarks 上平均中位平移误差降低 17%，训练时间仅为 STDLoc 的 1/10。
+
+---
+
+### 6. Ground4D: Spatially-Grounded Feedforward 4D Reconstruction for Unstructured Off-Road Scenes
+
+- **arXiv**: [2605.04435](https://arxiv.org/abs/2605.04435)
+- **作者**: Shuo Wang, Jilin Mei, Fuyang Liu, Wenfei Guan et al.
+- **类别**: cs.CV
+
+**摘要**: 前向 3DGS 在非结构化越野场景因高频几何、自运动抖动和非刚性动态而性能退化。Ground4D 提出空间锚定的 4D 前向框架，将正则高斯空间划分为空间体素，在每个体素内执行查询条件化的时序注意力，体素内 softmax 归一化使时序选择性和空间占用相互增强而非冲突。引入表面法线作为辅助几何引导。
+
+---
+
+## 2026-05-05
+
+### 1. FreeTimeGS++: Secrets of Dynamic Gaussian Splatting and Their Principles
+
+- **arXiv**: [2605.03337](https://arxiv.org/abs/2605.03337)
+- **作者**: Lucas Yunkyu Lee, Soonho Kim, Youngwook Kim, Sangmin Kim, Jaesik Park
+- **类别**: cs.CV, cs.AI
+
+**摘要**: 对 4DGS 框架中隐藏的增益因子进行全面分析。通过形式化和复现 FreeTimeGS 的启发式方法建立可控基线，沿基本轴解剖 4DGS，发现关键因子包括由高斯持续时间驱动的新兴时间分区、光度保真度与时空一致性之间的差异。FreeTimeGS++ 提出门控边缘化和神经速度场，实现更稳定和鲁棒的动态表示。
+
+---
+
+## 2026-05-04
+
+### 1. HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar
+
+- **arXiv**: [2605.02784](https://arxiv.org/abs/2605.02784)
+- **作者**: Yeheng Zong, Pou-Chun Kung, Yike Pan, Seth Isaacson et al.
+- **类别**: cs.CV
+
+**摘要**: 现有人体数字人方法中，ViT 方法容易过拟合 2D 视图，而 NeRF/3DGS 数字人将姿态和外观分离处理，限制了在新姿态下的渲染泛化。HumanSplatHMR 将光度、分割和深度损失通过可微渲染器反向传播到姿态参数和全局位置，联合优化 3D 人体姿态和高保真数字人，仅使用 SOTA 人体姿态估计器的初始估计即可迭代精炼。
+
+---
+
+## 2026-05-03
+
+### 1. From Concept to Capability: Evaluating 3D Gaussian Splatting for Synthetic Scene Editing in Autonomous Driving
+
+- **arXiv**: [2605.01995](https://arxiv.org/abs/2605.01995)
+- **作者**: Ali Nouri, Yifei Zhang, Yifan Zhang, Tayssir Bouraffa et al.
+- **类别**: cs.CV
+- **备注**: SafeComp 2026 录用
+
+**摘要**: 系统性分析 3DGS 在安全相关场景重建中的能力和局限性。关注自动驾驶中最关键的车辆和行人两类物体的重建质量，从多个新视角（横向和纵向）评估重建保真度退化，为将这些方法集成到实际工业 AD 软件开发和测试管线提供行业洞察。
+
+---
+
+### 2. GETA-3DGS: Automatic Joint Structured Pruning and Quantization for 3D Gaussian Splatting
+
+- **arXiv**: [2605.02086](https://arxiv.org/abs/2605.02086)
+- **作者**: Baobing Zhang, Wanxin Sui
+- **类别**: cs.LG, cs.AI, cs.GR, eess.IV
+
+**摘要**: 首个 3DGS 端到端自动联合结构化剪枝与量化框架。贡献包括：3DGS 感知的量化感知依赖图、渲染感知显著性（融合透射加权贡献、屏幕空间梯度和像素覆盖）、异构每属性混合精度方案与结构稀疏性共优化。在 Mip-NeRF 360 等数据集上实现约 5x 存储降低，均匀 6-bit 上限比异构分配代价高达 -6.74 dB。
+
+---
+
+### 3. Multi-Scale Gaussian-Language Map for Zero-shot Embodied Navigation and Reasoning
+
+- **arXiv**: [2605.01736](https://arxiv.org/abs/2605.01736)
+- **作者**: Sixian Zhang, Yiyao Wang, Xinhang Song, Keming Zhang et al.
+- **类别**: cs.CV
+- **备注**: CVPR 2026 录用
+
+**摘要**: 多尺度高斯-语言地图(GLMap)，融合显式几何、覆盖实例和区域概念的多尺度语义、以及双模态接口（自然语言描述+3D高斯表示）。提出高斯估计器从密集点云分析推导高斯参数，无需梯度优化即可高效增量构建。在 ObjectNav、InstNav 和 SQA 任务上增强目标导航和上下文推理，与大模型方法零样本兼容。
+
+---
+
+## 2026-05-02
+
+### 1. SplAttN: Bridging 2D and 3D with Gaussian Soft Splatting and Attention for Point Cloud Completion
+
+- **arXiv**: [2605.01466](https://arxiv.org/abs/2605.01466)
+- **作者**: Zhaoyang Li, Zhichao You, Tianrui Li
+- **类别**: cs.CV, cs.LG
+- **备注**: ICML 2026 Spotlight 录用
+
+**摘要**: 多模态点云补全中，标准硬投影将稀疏点云投影到图像平面产生极稀疏支撑，导致跨模态熵崩溃。SplAttN 用可微高斯光栅化替代硬投影，产生密集连续的图像平面表示，将投影 reformulate 为连续密度估计，避免崩溃的稀疏支撑并改善跨模态连接可学习性。在 PCN 和 ShapeNet-55/34 上达到 SOTA，KITTI 基准上保持对视觉线索的稳健依赖。
+
+---
+
+### 2. A Principled Approach for Creating High-fidelity Synthetic Demonstrations for Imitation Learning
+
+- **arXiv**: [2605.01232](https://arxiv.org/abs/2605.01232)
+- **作者**: Moniruzzaman Akash, Momotaz Begum
+- **类别**: cs.RO
+
+**摘要**: 3DGS 合成演示中，基于采样规划器或轨迹优化的新方法常大幅偏离专家轨迹。本文提出用动态运动基元(DMP)对专家轨迹建模并重目标化到新目标和物体配置中，在 3DGS 重建场景内保持相位一致和形状保持的运动。引入解析障碍物感知 DMP 公式，直接在 3DGS 诱导的连续密度场上操作以避免碰撞。
+
+---
+
+### 3. TAIL-Safe: Task-Agnostic Safety Monitoring for Imitation Learning Policies
+
+- **arXiv**: [2605.01195](https://arxiv.org/abs/2605.01195)
+- **作者**: Riad Ahmed, Momotaz Begum
+- **类别**: cs.RO
+
+**摘要**: 模仿学习策略在运行时常因初始条件敏感度和不可约近似误差而失败。TAIL-Safe 提出 Lipschitz 连续 Q 值函数，基于可见性、可识别性和可抓取性三个任务无关准则将状态-动作对映射到长期安全评分。当标称策略提出超出安全集的动作时，使用梯度 ascent 将策略导回安全区。使用 3DGS 构建高保真数字孪生以系统性收集失败数据。
+
+---
+
+## 2026-05-01
+
+### 1. 2D-SuGaR: Surface-Aware Gaussian Splatting for Geometrically Accurate Mesh Reconstruction
+
+- **arXiv**: [2605.00569](https://arxiv.org/abs/2605.00569)
+- **作者**: Prajwal Gupta C. R., Divyam Sheth, Jinjoo Ha, Mirela Ostrek, Justus Thies
+- **类别**: cs.CV, cs.GR
+
+**摘要**: 2DGS 对高斯基元的初始化敏感，依赖 SfM 初始化在困难图像集上可能产生次优结果。2D-SuGaR 引入单目深度和法线先验增强 2DGS：提出深度引导的高斯初始化策略和基于聚类的退化高斯裁剪技术。在 DTU 数据集上达到 SOTA 网格重建，同时保持高质量新视角合成。
+
+---
+
+### 2. Beyond Heuristics: Learnable Density Control for 3D Gaussian Splatting (LeGS)
+
+- **arXiv**: [2605.00408](https://arxiv.org/abs/2605.00408)
+- **作者**: Zhenhua Ning, Xin Li, Jun Yu, Guangming Lu et al.
+- **类别**: cs.CV
+
+**摘要**: 3DGS 的启发式密度控制缺乏适应不同场景的灵活性。LeGS 将密度控制重构为参数化策略网络，通过强化学习优化。核心为基于敏感性分析的有效奖励函数，精确量化单个高斯对重建质量的边际贡献。推导闭式解将奖励计算复杂度从 O(N²) 降至 O(N)。在 Mip-NeRF 360 等数据集上显著超越 SOTA。
+
+---
+
+### 3. GOR-IS: 3D Gaussian Object Removal in the Intrinsic Space
+
+- **arXiv**: [2605.00498](https://arxiv.org/abs/2605.00498)
+- **作者**: Yonghao Zhao, Yupeng Gao, Jian Yang, Jin Xie, Beibei Wang
+- **类别**: cs.CV
+
+**摘要**: 3D 物体移除中现有方法忽视全局光照效应，导致物理上不合理结果，且在依赖视角的非朗伯表面上表现不佳。GOR-IS 将场景分解为内秉分量并显式建模光传输以维持全局光照一致性，引入内秉空间补全模块直接在材质和光照域操作，有效解决非朗伯表面挑战。感知相似度(LPIPS)提升 13%，PSNR 提升 2dB。
+
+---
+
