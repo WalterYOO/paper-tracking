@@ -1,6 +1,7 @@
 # 3D Gaussian Splatting 论文分类索引 (2026-05)
 
 > 基于 `3dgs_2026-05.md` 中收集的论文，按研究方向细分类。
+> ★ 表示被顶会/顶刊录用。
 
 ## 目录
 
@@ -61,7 +62,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-13 | [RoSplat](#4-rosplat-robust-feed-forward-pixel-wise-gaussian-splatting-for-varying-input-views-and-high-resolution-rendering) | 2605.13093 | alpha 归一化，多视角鲁棒 |
-| 2026-05-13 | [Z-Order Transformer for 3DGS](#5-z-order-transformer-for-feed-forward-gaussian-splatting) | 2605.13465 | Z 序稀疏注意力，单次前向 (Oral) |
+| 2026-05-13 | ★ **[Z-Order Transformer for 3DGS](#5-z-order-transformer-for-feed-forward-gaussian-splatting)** | 2605.13465 | Z 序稀疏注意力，单次前向 (CVPR'26 Oral) |
 | 2026-05-11 | [AdaptSplat](#2-adaptsplat-adapting-vision-foundation-models-for-feed-forward-3d-gaussian-splatting) | 2605.10239 | 频率保持适配器，1.5M 参数 |
 | 2026-05-10 | [ConFixGS](#1-confixgs-learning-to-fix-feedforward-3d-gaussian-splatting-with-confidence-aware-diffusion-priors-in-driving-scenes) | 2605.09688 | 置信感知扩散修复 |
 | 2026-05-08 | [SplatWeaver](#8-splatweaver-learning-to-allocate-gaussian-primitives-for-generalizable-novel-view-synthesis) | 2605.07287 | 动态基元分配，像素级路由 |
@@ -73,7 +74,7 @@
 |------|------|-------|--------|
 | 2026-05-13 | [PanoPlane](#1-panoplane-plane-aware-panoramic-completion-for-sparse-view-indoor-3d-gaussian-splatting) | 2605.14135 | 平面感知全景补全，3 视图 SOTA |
 | 2026-05-12 | [PairDropGS](#7-pairdropgs-paired-dropout-induced-consistency-regularization-for-sparse-view-gaussian-splatting) | 2605.12072 | 成对 Dropout 一致性正则化 |
-| 2026-05-12 | [GeoQuery](#8-geoquery-geometry-query-diffusion-for-sparse-view-reconstruction) | 2605.12399 | 几何引导扩散修复伪像 |
+| 2026-05-12 | ★ **[GeoQuery](#8-geoquery-geometry-query-diffusion-for-sparse-view-reconstruction)** | 2605.12399 | 几何引导扩散修复伪像 (SIGGRAPH'26) |
 | 2026-05-08 | [SatSurfGS](#2-satsurfgs-generalizable-2d-gaussian-splatting-for-sparse-view-satellite-surface-reconstruction) | 2605.07181 | 2DGS 可泛化卫星表面重建 |
 
 **概要**: 无需逐场景优化即可合成新视角（可泛化/前向方法），或从极少输入视角重建场景（稀疏视角方法）。
@@ -85,7 +86,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-17 | [GEM](#1-gem-gaussian-evolution-model-for-occupancy-forecasting-and-motion-planning) | 2605.17682 | 非自回归 4D 世界模型，占用预测 |
-| 2026-05-12 | [Retrospective Dynamic NVS](#3-3d-gaussian-splatting-for-efficient-retrospective-dynamic-scene-novel-view-synthesis-with-a-standardized-benchmark) | 2605.12437 | 同步多视图回溯重建 |
+| 2026-05-12 | ★ **[Retrospective Dynamic NVS](#3-3d-gaussian-splatting-for-efficient-retrospective-dynamic-scene-novel-view-synthesis-with-a-standardized-benchmark)** | 2605.12437 | 同步多视图回溯重建 (CVPR'26) |
 | 2026-05-11 | [DySurface](#4-dysurface-consistent-4d-surface-reconstruction-via-bridging-explicit-gaussians-and-implicit-functions) | 2605.10360 | 显式高斯+隐式 SDF 桥接 |
 | 2026-05-05 | [FreeTimeGS++](#1-freetimesgs-secrets-of-dynamic-gaussian-splatting-and-their-principles) | 2605.03337 | 4DGS 关键因子分析，门控边缘化 |
 
@@ -99,11 +100,11 @@
 |------|------|-------|--------|
 | 2026-05-15 | [Prior-Guided 3DGS Segmentation](#1-robust-prior-guided-segmentation-for-editable-3d-gaussian-splatting) | 2605.16065 | SAM-HQ 先验引导，多视角一致分割 |
 | 2026-05-13 | [SCOUP](#6-sparse-code-uplifting-for-efficient-3d-language-gaussian-splatting) | 2605.13600 | 稀疏码本提升，训练提速 400x |
-| 2026-05-12 | [PointGS](#2-pointgs-semantic-consistent-unsupervised-3d-point-cloud-segmentation-with-3d-gaussian-splatting) | 2605.11520 | 3DGS 桥接 2D-3D 语义迁移 |
-| 2026-05-10 | [BEA-GS](#4-bea-gs-beyond-radiance-supervision-in-3dgs-for-precise-object-extraction) | 2605.09662 | 超越辐射监督的精确物体提取 |
+| 2026-05-12 | ★ **[PointGS](#2-pointgs-semantic-consistent-unsupervised-3d-point-cloud-segmentation-with-3d-gaussian-splatting)** | 2605.11520 | 3DGS 桥接 2D-3D 语义迁移 (CVPR'26) |
+| 2026-05-10 | ★ **[BEA-GS](#4-bea-gs-beyond-radiance-supervision-in-3dgs-for-precise-object-extraction)** | 2605.09662 | 超越辐射监督的精确物体提取 (CVPR'26 Highlight) |
 | 2026-05-07 | [OpenGaFF](#2-opengaff-open-vocabulary-gaussian-feature-field-with-codebook-attention) | 2605.06088 | 码本注意力，开放词汇特征场 |
 | 2026-05-06 | [Ilov3Splat](#2-ilov3splat-instance-level-open-vocabulary-3d-scene-understanding-in-gaussian-splatting) | 2605.04506 | 实例级开放词汇场景理解 |
-| 2026-05-03 | [GLMap](#3-multi-scale-gaussian-language-map-for-zero-shot-embodied-navigation-and-reasoning) | 2605.01736 | 多尺度高斯-语言地图 |
+| 2026-05-03 | ★ **[GLMap](#3-multi-scale-gaussian-language-map-for-zero-shot-embodied-navigation-and-reasoning)** | 2605.01736 | 多尺度高斯-语言地图 (CVPR'26) |
 
 **概要**: 3DGS 上的语义分割、开放词汇场景理解、语言 grounding 和物体级提取。
 
@@ -116,7 +117,7 @@
 | 2026-05-18 | [LiteLoc](#3-efficient-sparse-to-dense-visual-localization-via-compact-gaussian-scene-representation-and-accelerated-dense-pose-estimation-liteloc) | 2605.17777 | 去除颜色场减 94% 存储，PnP 蒸馏 19x |
 | 2026-05-12 | [PoseCompass](#5-posecompass-intelligent-synthetic-pose-selection-for-visual-localization) | 2605.12144 | 3DGS 合成位姿智能筛选 |
 | 2026-05-08 | [SplitGS-Loc](#4-disambiguating-2d-3d-correspondences-in-gaussian-splatting-based-feature-fields-for-visual-localization) | 2605.07351 | 高斯分裂消歧 2D-3D 对应 |
-| 2026-05-06 | [ULF-Loc](#5-ulf-loc-unbiased-landmark-feature-for-robust-visual-localization-with-3d-gaussian-splatting) | 2605.04730 | 无偏地标特征 (CVPR Highlight) |
+| 2026-05-06 | ★ **[ULF-Loc](#5-ulf-loc-unbiased-landmark-feature-for-robust-visual-localization-with-3d-gaussian-splatting)** | 2605.04730 | 无偏地标特征 (CVPR'26 Highlight) |
 
 **概要**: 基于 3DGS 场景表示的视觉定位，包括紧凑场景表示、特征场、2D-3D 匹配消歧等。
 
@@ -126,11 +127,11 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
-| 2026-05-16 | [P2GS](#3-p2gs-physical-prior-guided-gaussian-splatting-for-photometrically-consistent-urban-reconstruction) | 2605.16925 | 物理先引导光度一致重建 |
+| 2026-05-16 | ★ **[P2GS](#3-p2gs-physical-prior-guided-gaussian-splatting-for-photometrically-consistent-urban-reconstruction)** | 2605.16925 | 物理先引导光度一致重建 (CVPR'26) |
 | 2026-05-13 | [HarmoGS](#2-harmogs-robust-3d-gaussian-splatting-in-the-wild-via-conflict-aware-gradient-harmonization) | 2605.13073 | 冲突感知梯度调和，野生场景 |
 | 2026-05-08 | [High-Fidelity Surface Splatting](#6-high-fidelity-surface-splatting-based-3d-reconstruction-from-multi-view-images) | 2605.07254 | 多项式核 IMLS，高频几何保真 |
 | 2026-05-08 | [AsyncEvGS](#3-asyncevs-asynchronous-event-assisted-gaussian-splatting-for-handheld-motion-blurred-scenes) | 2605.07192 | 异步事件辅助，运动模糊场景 |
-| 2026-05-02 | [SplAttN](#1-splatttn-bridging-2d-and-3d-with-gaussian-soft-splatting-and-attention-for-point-cloud-completion) | 2605.01466 | 高斯软光栅化，点云补全 |
+| 2026-05-02 | ★ **[SplAttN](#1-splatttn-bridging-2d-and-3d-with-gaussian-soft-splatting-and-attention-for-point-cloud-completion)** | 2605.01466 | 高斯软光栅化，点云补全 (ICML'26 Spotlight) |
 | 2026-05-01 | [2D-SuGaR](#1-2d-sugar-surface-aware-gaussian-splatting-for-geometrically-accurate-mesh-reconstruction) | 2605.00569 | 单目深度法线先验增强 2DGS |
 
 **概要**: 从图像重建几何准确的表面、网格或点云，包括表面光栅化、高频细节恢复、多传感器融合等。
@@ -154,7 +155,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-18 | [PanoWorld](#1-panoworld-a-generative-spatial-world-model-for-consistent-whole-house-panorama-synthesis) | 2605.17916 | 自回归全屋全景生成，3DGS 空间记忆 |
-| 2026-05-08 | [DeG](#7-generative-3d-gaussians-with-learned-density-control) | 2605.16355 | Octree+扩散模型，学习密度控制 |
+| 2026-05-08 | ★ **[DeG](#7-generative-3d-gaussians-with-learned-density-control)** | 2605.16355 | Octree+扩散模型，学习密度控制 (SIGGRAPH'26) |
 | 2026-05-14 | [3DEditSafe](#4-3d-editsafe-defending-3d-editing-pipelines-from-unsafe-generation) | 2605.15398 | 3DGS 文本驱动编辑安全防御 |
 
 **概要**: 使用扩散模型、自回归模型等生成式方法生成或编辑 3DGS 场景。
@@ -166,7 +167,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-16 | [DSGS](#2-a-single-atlas-is-all-you-need-decoder-side-gaussian-splatting-for-immersive-video) | 2605.17002 | 解码端前向 3DGS，沉浸式视频 |
-| 2026-05-10 | [CAGS](#2-cags-color-adaptive-volumetric-video-streaming-with-dynamic-3d-gaussian-splatting) | 2605.09279 | 矢量量化+颜色自适应，体视频流 |
+| 2026-05-10 | ★ **[CAGS](#2-cags-color-adaptive-volumetric-video-streaming-with-dynamic-3d-gaussian-splatting)** | 2605.09279 | 矢量量化+颜色自适应，体视频流 (SIGGRAPH'26) |
 | 2026-05-09 | [TIGAS](#4-thin-client-interactive-gaussian-adaptive-streaming-over-http3) | 2605.08699 | HTTP/3 轻量端自适应流式传输 |
 
 **概要**: 3DGS 场景或动态 3DGS 的视频编码、流式传输和带宽优化。
