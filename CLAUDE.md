@@ -49,6 +49,31 @@
 
 详细格式示例请参考 `tracking_sample.md`。
 
+### 亮点论文标记
+
+表格中若论文被顶会/顶刊录用，在论文名前加 `★ ` 并对论文名做**加粗**，格式为：
+
+```markdown
+| 2026-04-30 | ★ **[FieryGS](#锚点)** | [arxiv](链接) | cs.GR | 简述（ICLR'26） |
+```
+
+**顶会/顶刊判断标准**（仅在录用信息明确标注时标记）：
+
+- 计算机视觉：CVPR、ICCV、ECCV
+- 机器学习：NeurIPS、ICML、ICLR
+- 图形学：SIGGRAPH、SIGGRAPH Asia、Eurographics
+- 机器人：RSS、ICRA、IROS
+- 多媒体：ACM MM
+- 设计自动化：DAC、ISCA
+- 其他公认的 A\*\* 级别会议/期刊
+
+Highlight、Oral、Spotlight 等子类别也标记。Workshop 若属于上述会议的 Workshop 可标记。
+
+在目录表格上方添加说明行：
+```markdown
+> 注：★ 表示被顶会录用。
+```
+
 ### 排序规则
 
 目录表格和正文日期区块均按**日期从近到远**（降序）排列。
