@@ -29,6 +29,8 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-20 | ★ **[CAdam](#3-cadam-context-adaptive-moment-estimation-for-3d-gaussian-densification-in-generative-distillation)** | 2605.20872 | 上下文自适应密度控制，基元数减 85-97% (SIGGRAPH'26) |
+| 2026-05-19 | [TideGS](#2-tidegs-scalable-training-of-over-one-billion-3d-gaussian-splatting-primitives-via-out-of-core-optimization) | 2605.20150 | 超十亿基元 out-of-core 训练 |
 | 2026-05-15 | [Learn2Splat](#3-learn2splat-extending-the-horizon-of-learned-3dgs-optimization) | 2605.15760 | 学习型优化器，元学习 |
 | 2026-05-14 | [Denoising-GS](#3-denoising-gs-gaussian-splatting-with-spatial-aware-denoising) | 2605.14880 | 空间感知去噪，冗余基元裁剪 |
 | 2026-05-14 | [Skew-Normal Splatting](#5-3d-skew-normal-splatting) | 2605.15010 | 偏态正态核，非对称基元 |
@@ -46,6 +48,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-19 | [Lattice VQ for 3DGS](#7-improving-3d-gaussian-splatting-compression-by-scene-adaptive-lattice-vector-quantization) | 2509.13482 | 场景自适应格点矢量量化 |
 | 2026-05-18 | [TensorGS](#2-accelerating-3d-gaussian-splatting-using-tensor-cores-tensorgs) | 2605.17855 | Tensor Core 张量化，1.65x 加速 |
 | 2026-05-12 | [3DGS³](#4-3dgs-cubed-joint-super-sampling-and-frame-interpolation-for-real-time-large-scale-3dgs-rendering) | 2605.11489 | 超采样+帧插值，后处理框架 |
 | 2026-05-06 | [QuadBox](#3-quadbox-accelerating-3d-gaussian-splatting-with-geometry-aware-boxes) | 2605.04844 | 几何感知包围盒，1.85x 加速 |
@@ -61,6 +64,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-19 | [Cross-View Splatter](#5-cross-view-splatter-feed-forward-view-synthesis-with-georeferenced-images) | 2605.19656 | 卫星+街景融合，地理参考前向合成 |
 | 2026-05-13 | [RoSplat](#4-rosplat-robust-feed-forward-pixel-wise-gaussian-splatting-for-varying-input-views-and-high-resolution-rendering) | 2605.13093 | alpha 归一化，多视角鲁棒 |
 | 2026-05-13 | ★ **[Z-Order Transformer for 3DGS](#5-z-order-transformer-for-feed-forward-gaussian-splatting)** | 2605.13465 | Z 序稀疏注意力，单次前向 (CVPR'26 Oral) |
 | 2026-05-11 | [AdaptSplat](#2-adaptsplat-adapting-vision-foundation-models-for-feed-forward-3d-gaussian-splatting) | 2605.10239 | 频率保持适配器，1.5M 参数 |
@@ -72,6 +76,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-19 | [AnyCity](#4-feed-forward-gaussian-splatting-from-sparse-aerial-views) | 2605.19949 | 稀疏航拍前向 3DGS，生成式城市重建 |
 | 2026-05-13 | [PanoPlane](#1-panoplane-plane-aware-panoramic-completion-for-sparse-view-indoor-3d-gaussian-splatting) | 2605.14135 | 平面感知全景补全，3 视图 SOTA |
 | 2026-05-12 | [PairDropGS](#7-pairdropgs-paired-dropout-induced-consistency-regularization-for-sparse-view-gaussian-splatting) | 2605.12072 | 成对 Dropout 一致性正则化 |
 | 2026-05-12 | ★ **[GeoQuery](#8-geoquery-geometry-query-diffusion-for-sparse-view-reconstruction)** | 2605.12399 | 几何引导扩散修复伪像 (SIGGRAPH'26) |
@@ -98,6 +103,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-19 | [OP2GS](#3-op2gs-object-aware-3d-gaussian-splatting-with-dual-opacity-primitives) | 2605.20044 | 双透明度原语，对象感知分割 |
 | 2026-05-15 | [Prior-Guided 3DGS Segmentation](#1-robust-prior-guided-segmentation-for-editable-3d-gaussian-splatting) | 2605.16065 | SAM-HQ 先验引导，多视角一致分割 |
 | 2026-05-13 | [SCOUP](#6-sparse-code-uplifting-for-efficient-3d-language-gaussian-splatting) | 2605.13600 | 稀疏码本提升，训练提速 400x |
 | 2026-05-12 | ★ **[PointGS](#2-pointgs-semantic-consistent-unsupervised-3d-point-cloud-segmentation-with-3d-gaussian-splatting)** | 2605.11520 | 3DGS 桥接 2D-3D 语义迁移 (CVPR'26) |
@@ -166,6 +172,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-20 | [Transcoding 3DGS](#2-transcoding-a-3d-gaussian-splatting-model-from-a-plenoptic-point-cloud-or-mesh-without-the-original-multi-view-images) | 2605.21051 | 点云/网格到 3DGS 编解码，自定义初始化 |
 | 2026-05-16 | [DSGS](#2-a-single-atlas-is-all-you-need-decoder-side-gaussian-splatting-for-immersive-video) | 2605.17002 | 解码端前向 3DGS，沉浸式视频 |
 | 2026-05-10 | ★ **[CAGS](#2-cags-color-adaptive-volumetric-video-streaming-with-dynamic-3d-gaussian-splatting)** | 2605.09279 | 矢量量化+颜色自适应，体视频流 (SIGGRAPH'26) |
 | 2026-05-09 | [TIGAS](#4-thin-client-interactive-gaussian-adaptive-streaming-over-http3) | 2605.08699 | HTTP/3 轻量端自适应流式传输 |
@@ -200,6 +207,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-20 | [RCGDet3D](#1-rcgdet3d-rethinking-4d-radar-camera-fusion-based-3d-object-detection-with-enhanced-radar-feature-encoding) | 2605.21112 | 高斯编码雷达特征增强，雷达-相机融合 3D 检测 |
 | 2026-05-12 | [PointForward](#6-pointforward-feedforward-driving-reconstruction-through-point-aligned-representations) | 2605.11594 | 空间稀疏查询，前向驾驶重建 |
 | 2026-05-09 | [REAP](#3-reap-reinforcement-learning-end-to-end-autonomous-parking-with-gaussian-splatting-simulator-for-real2sim2real-transfer) | 2605.08713 | 3DGS 模拟器，RL 端到端泊车 |
 | 2026-05-03 | [3DGS for ADS Editing](#1-from-concept-to-capability-evaluating-3d-gaussian-splatting-for-synthetic-scene-editing-in-autonomous-driving) | 2605.01995 | 合成场景编辑 fidelity 评估 |
@@ -212,6 +220,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-19 | [Conflict-Aware CBF Navigation](#1-conflict-aware-active-perception-and-control-in-3d-gaussian-splatting-fields-via-control-barrier-functions) | 2605.20566 | CBF 导航，避障与数据采集统一优化 |
 | 2026-05-11 | [MAGS-SLAM](#5-mags-slam-monocular-multi-agent-gaussian-splatting-slam-for-geometrically-and-photometrically-consistent-reconstruction) | 2605.10760 | 仅 RGB 多智能体 3DGS SLAM |
 | 2026-05-11 | [VEGA](#6-vega-visual-encoder-grounding-alignment-for-spatially-aware-vision-language-action-models) | 2605.10485 | 3DGS 监督 VLA 空间感知对齐 |
 | 2026-05-02 | [DMP for IL](#2-a-principled-approach-for-creating-high-fidelity-synthetic-demonstrations-for-imitation-learning) | 2605.01232 | 3DGS 场景+DMP 模仿学习演示 |
@@ -225,6 +234,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-19 | [FlyMirage](#6-flymirage-a-fully-automated-generation-pipeline-for-diverse-and-scalable-uav-flight-data-via-generative-world-model) | 2605.19600 | 生成式世界模型，UAV 飞行数据自动生成 |
 | 2026-05-17 | [GEM](#1-gem-gaussian-evolution-model-for-occupancy-forecasting-and-motion-planning) * | 2605.17682 | 4D 世界模型，占用预测+规划 |
 | 2026-05-16 | [Topo-GS](#1-topo-gs-continuous-volumetric-embedding-of-high-dimensional-data-via-topological-gaussian-splatting) | 2605.17011 | 3DGS 复用于降维可视化 |
 | 2026-05-11 | [SDTalk](#3-sdtalk-structured-facial-priors-and-dual-branch-motion-fields-for-generalizable-gaussian-talking-head-synthesis) | 2605.09956 | 单帧可泛化说话人头合成 |
@@ -245,21 +255,21 @@
 
 | 类别 | 论文数 |
 |------|--------|
-| 核心算法与优化 | 8 |
-| 新视角合成 | 10 |
+| 核心算法与优化 | 10 |
+| 新视角合成 | 12 |
 | 几何与表面重建 | 6 |
-| 语义分割与场景理解 | 7 |
+| 语义分割与场景理解 | 8 |
 | 动态场景与 4D | 4 |
 | 视觉定位 | 4 |
-| 渲染加速与压缩 | 4 |
-| 自动驾驶应用 | 3 |
-| 机器人、SLAM 与具身智能 | 4 |
+| 渲染加速与压缩 | 5 |
+| 自动驾驶应用 | 4 |
+| 机器人、SLAM 与具身智能 | 5 |
 | 生成式模型 | 3 |
-| 流媒体与编码 | 3 |
+| 流媒体与编码 | 4 |
 | 无线与射频传播 | 3 |
 | 逆渲染与光照 | 3 |
 | 安全与版权 | 1 |
-| 其他应用 | 9 |
-| **合计（含重复）** | **65** |
+| 其他应用 | 10 |
+| **合计（含重复）** | **82** |
 
-> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 65 而非 60。原始论文总数为 60 篇（5 月 1 日至 5 月 18 日）。
+> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 82 而非 81。原始论文总数为 81 篇（5 月 1 日至 5 月 20 日）。
