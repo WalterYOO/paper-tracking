@@ -6,11 +6,58 @@
 
 ## 工作流程
 
-1. 使用 `/arxiv-search` skill 检索指定领域的论文，生成论文简述
+1. 使用 `agent-browser` 访问 arxiv 检索页面获取论文列表（详见"arxiv 检索方式"）
 2. 将论文简述更新到对应领域的月度文件中（如 `3dgs/3dgs_2026-05.md`）
    - 文件名格式：`<领域>_<YYYY-MM>.md`
    - 每月一个文件，当月论文写入对应月份的文件
 3. 提交更改并推送到远程仓库
+
+## Arxiv 检索方式
+
+> 注：原 `/arxiv-search` skill 调用的 export 接口易被限流，现改为用 `agent-browser` 直接浏览网页获取论文。
+
+### 构造检索 URL
+
+根据用户给定的搜索关键词和日期范围，构造 arxiv 高级检索 URL：
+
+```
+https://arxiv.org/search/advanced?
+  advanced=&
+  terms-0-operator=AND&
+  terms-0-term=<关键词 URL encoded>&
+  terms-0-field=all&
+  classification-physics_archives=all&
+  classification-include_cross_list=include&
+  date-year=&
+  date-filter_by=date_range&
+  date-from_date=<起始日期 YYYY-MM-DD>&
+  date-to_date=<结束日期 YYYY-MM-DD>&
+  date-date_type=submitted_date&
+  abstracts=show&
+  size=50&
+  order=-announced_date_first
+```
+
+参数说明：
+
+| 参数 | 说明 |
+|------|------|
+| `terms-0-term` | 搜索关键词（如 `3D+Gaussian+Splatting`） |
+| `terms-0-field` | `all` 表示在所有字段搜索 |
+| `date-filter_by` | `date_range` 表示按日期范围过滤 |
+| `date-from_date` / `date-to_date` | 日期范围。**注意**：两者不能相等。若只需查单天（如 5 月 20 日），设为 `from=2026-05-20 & to=2026-05-21` |
+| `date-date_type` | `submitted_date` 按提交日期 |
+| `size` | `50`（arxiv 单页最大值） |
+| `order` | `-announced_date_first` 按日期降序 |
+
+### 翻页遍历
+
+1. 用 `agent-browser` 打开构造好的检索 URL
+2. 提取页面中的论文信息（标题、arXiv 编号、作者、类别、摘要）
+3. 检查页面底部是否有 "Next" 按钮（或等价的分页链接）
+   - 有 → 点击翻页，重复步骤 2，直到最后一页
+   - 无 → 结束遍历
+4. 合并所有页的论文结果，去重后按日期排序
 
 ## 文档格式规范
 
