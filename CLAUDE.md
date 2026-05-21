@@ -37,7 +37,7 @@ https://arxiv.org/search/advanced?
   date-to_date=<结束日期 YYYY-MM-DD>&
   date-date_type=submitted_date&
   abstracts=show&
-  size=50&
+  size=100&
   order=-announced_date_first
 ```
 
@@ -50,7 +50,7 @@ https://arxiv.org/search/advanced?
 | `date-filter_by` | `date_range` 表示按日期范围过滤 |
 | `date-from_date` / `date-to_date` | 日期范围。**注意**：两者不能相等。若只需查单天（如 5 月 20 日），设为 `from=2026-05-20 & to=2026-05-21` |
 | `date-date_type` | `submitted_date` 按提交日期 |
-| `size` | `50`（arxiv 单页最大值） |
+| `size` | `100`（arxiv 单页最大值） |
 | `order` | `-announced_date_first` 按日期降序 |
 
 ### 翻页遍历
