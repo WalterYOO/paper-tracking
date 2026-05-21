@@ -30,6 +30,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-20 | ★ **[CAdam](#3-cadam-context-adaptive-moment-estimation-for-3d-gaussian-densification-in-generative-distillation)** | 2605.20872 | 上下文自适应密度控制，基元数减 85-97% (SIGGRAPH'26) |
+| 2026-05-18 | [3D Skew Gaussian Splatting](#6-3d-skew-gaussian-splatting-with-any-camera-trajectory-visualization-engine) | 2605.18334 | 偏态高斯基元，任意相机轨迹可视化引擎 |
 | 2026-05-19 | [TideGS](#2-tidegs-scalable-training-of-over-one-billion-3d-gaussian-splatting-primitives-via-out-of-core-optimization) | 2605.20150 | 超十亿基元 out-of-core 训练 |
 | 2026-05-15 | [Learn2Splat](#3-learn2splat-extending-the-horizon-of-learned-3dgs-optimization) | 2605.15760 | 学习型优化器，元学习 |
 | 2026-05-14 | [Denoising-GS](#3-denoising-gs-gaussian-splatting-with-spatial-aware-denoising) | 2605.14880 | 空间感知去噪，冗余基元裁剪 |
@@ -49,6 +50,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-19 | [Lattice VQ for 3DGS](#7-improving-3d-gaussian-splatting-compression-by-scene-adaptive-lattice-vector-quantization) | 2509.13482 | 场景自适应格点矢量量化 |
+| 2026-05-18 | [MMGS](#4-mmgs-104-compressed-3dgs-through-optimal-transport-aggregation-based-on-multi-view-ranking) | 2605.19304 | 最优传输聚合，10 倍压缩，仅留 10% 基元 |
 | 2026-05-18 | [TensorGS](#2-accelerating-3d-gaussian-splatting-using-tensor-cores-tensorgs) | 2605.17855 | Tensor Core 张量化，1.65x 加速 |
 | 2026-05-12 | [3DGS³](#4-3dgs-cubed-joint-super-sampling-and-frame-interpolation-for-real-time-large-scale-3dgs-rendering) | 2605.11489 | 超采样+帧插值，后处理框架 |
 | 2026-05-06 | [QuadBox](#3-quadbox-accelerating-3d-gaussian-splatting-with-geometry-aware-boxes) | 2605.04844 | 几何感知包围盒，1.85x 加速 |
@@ -148,6 +150,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-18 | ★ **[RT-Splatting](#7-rt-splatting-joint-reflection-transmission-modeling-with-gaussian-splatting)** | 2605.18263 | 反射-传输联合建模 (CVPR'26 Highlight) |
 | 2026-05-09 | [Relightable GS for VP](#1-relightable-gaussian-splatting-for-virtual-production-using-image-based-illumination) | 2605.09024 | 基于图像照明的重光照 |
 | 2026-05-07 | [3DSS](#3-3dss-3d-surface-splatting-for-inverse-rendering) | 2605.05876 | 首个表面光栅化可微逆渲染器 |
 | 2026-05-01 | [GOR-IS](#3-gor-is-3d-gaussian-object-removal-in-the-intrinsic-space) | 2605.00498 | 内秉空间物体移除，全局光照一致 |
@@ -161,6 +164,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-18 | [PanoWorld](#1-panoworld-a-generative-spatial-world-model-for-consistent-whole-house-panorama-synthesis) | 2605.17916 | 自回归全屋全景生成，3DGS 空间记忆 |
+| 2026-05-18 | [GaussianZoom](#8-gaussianzoom-progressive-zoom-in-generative-3d-gaussian-splatting-with-geometric-and-semantic-guidance) | 2605.18252 | 渐进式生成放大，几何+语义引导 |
 | 2026-05-08 | ★ **[DeG](#7-generative-3d-gaussians-with-learned-density-control)** | 2605.16355 | Octree+扩散模型，学习密度控制 (SIGGRAPH'26) |
 | 2026-05-14 | [3DEditSafe](#4-3d-editsafe-defending-3d-editing-pipelines-from-unsafe-generation) | 2605.15398 | 3DGS 文本驱动编辑安全防御 |
 
@@ -185,6 +189,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-18 | ★ **[GAI-GS](#5-a-geometric-algebra-informed-3d-gaussian-splatting-framework-for-wireless-scene-representation)** | 2605.19065 | 几何代数引导无线场景建模 (CVPR'26) |
 | 2026-05-14 | [Eff-WRFGS](#1-eff-wrfgs-efficient-wireless-radiance-field-using-3d-gaussian-splatting) | 2605.15324 | 可学习掩码裁剪，存储减 44x |
 | 2026-05-12 | [XFreq-GS](#1-xfreq-gs-cross-frequency-wireless-radiation-field-reconstruction-with-3d-gaussian-splatting) | 2605.11432 | 共享几何+频率自适应，跨频率泛化 |
 | 2026-05-08 | [Differentiable Ray Tracing](#5-differentiable-ray-tracing-with-gaussians-for-unified-radio-propagation-simulation-and-view-synthesis) | 2605.07781 | 高斯可微光线追踪，统一射频+视图 |
@@ -235,6 +240,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-19 | [FlyMirage](#6-flymirage-a-fully-automated-generation-pipeline-for-diverse-and-scalable-uav-flight-data-via-generative-world-model) | 2605.19600 | 生成式世界模型，UAV 飞行数据自动生成 |
+| 2026-05-15 | [FLUIDSPLAT](#4-fluidsplat-reconstructing-physical-fields-from-sparse-sensors-via-gaussian-primitives) | 2605.18866 | 高斯基元物理场重建，理论近似率证明 |
 | 2026-05-17 | [GEM](#1-gem-gaussian-evolution-model-for-occupancy-forecasting-and-motion-planning) * | 2605.17682 | 4D 世界模型，占用预测+规划 |
 | 2026-05-16 | [Topo-GS](#1-topo-gs-continuous-volumetric-embedding-of-high-dimensional-data-via-topological-gaussian-splatting) | 2605.17011 | 3DGS 复用于降维可视化 |
 | 2026-05-11 | [SDTalk](#3-sdtalk-structured-facial-priors-and-dual-branch-motion-fields-for-generalizable-gaussian-talking-head-synthesis) | 2605.09956 | 单帧可泛化说话人头合成 |
@@ -255,21 +261,21 @@
 
 | 类别 | 论文数 |
 |------|--------|
-| 核心算法与优化 | 10 |
+| 核心算法与优化 | 11 |
 | 新视角合成 | 12 |
 | 几何与表面重建 | 6 |
 | 语义分割与场景理解 | 8 |
 | 动态场景与 4D | 4 |
 | 视觉定位 | 4 |
-| 渲染加速与压缩 | 5 |
+| 渲染加速与压缩 | 6 |
 | 自动驾驶应用 | 4 |
 | 机器人、SLAM 与具身智能 | 5 |
-| 生成式模型 | 3 |
+| 生成式模型 | 4 |
 | 流媒体与编码 | 4 |
-| 无线与射频传播 | 3 |
-| 逆渲染与光照 | 3 |
+| 无线与射频传播 | 4 |
+| 逆渲染与光照 | 4 |
 | 安全与版权 | 1 |
-| 其他应用 | 10 |
-| **合计（含重复）** | **82** |
+| 其他应用 | 11 |
+| **合计（含重复）** | **88** |
 
-> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 82 而非 81。原始论文总数为 81 篇（5 月 1 日至 5 月 20 日）。
+> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 88 而非 87。原始论文总数为 87 篇（5 月 1 日至 5 月 20 日）。
