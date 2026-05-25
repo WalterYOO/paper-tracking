@@ -39,6 +39,7 @@
 | 2026-05-09 | [ReorgGS](#2-reorggs-equivalent-distribution-reorganization-for-3d-gaussian-splatting) | 2605.08739 | 分布重组，抑制浮动伪影 |
 | 2026-05-08 | [AV1 Motion Vector for 3DGS](#2-efficient-dense-matching-for-enhanced-gaussian-splatting-using-av1-motion-vectors) | 2605.14629 | AV1 运动向量替代穷举匹配 |
 | 2026-05-07 | [AdpSplit](#1-adpsplit-error-driven-adaptive-splitting-for-faster-geometry-discovery-in-3d-gaussian-splatting) | 2605.06876 | 误差驱动自适应分裂 |
+| 2026-05-07 | ★ **[AdamW-GS](#5-a-step-to-decouple-optimization-in-3dgs)** | 2601.16736 | 优化解耦分析，AdamW-GS 优化器 (ICLR'26) |
 | 2026-05-01 | [LeGS](#2-beyond-heuristics-learnable-density-control-for-3d-gaussian-splatting) | 2605.00408 | 强化学习密度控制 |
 
 **概要**: 改进 3DGS 基础优化过程，包括优化器设计、密度控制、基元分裂/裁剪策略、基元分布模型等。
@@ -54,7 +55,10 @@
 | 2026-05-18 | [TensorGS](#2-accelerating-3d-gaussian-splatting-using-tensor-cores-tensorgs) | 2605.17855 | Tensor Core 张量化，1.65x 加速 |
 | 2026-05-12 | [3DGS³](#4-3dgs-cubed-joint-super-sampling-and-frame-interpolation-for-real-time-large-scale-3dgs-rendering) | 2605.11489 | 超采样+帧插值，后处理框架 |
 | 2026-05-06 | [QuadBox](#3-quadbox-accelerating-3d-gaussian-splatting-with-geometry-aware-boxes) | 2605.04844 | 几何感知包围盒，1.85x 加速 |
+| 2026-05-07 | [MesonGS++](#4-mesongs-post-training-compression-of-3d-gaussian-splatting-with-hyperparameter-searching) | 2604.26799 | 后训练压缩超参数搜索，34x 压缩 |
 | 2026-05-03 | [GETA-3DGS](#2-geta-3dgs-automatic-joint-structured-pruning-and-quantization-for-3d-gaussian-splatting) | 2605.02086 | 联合剪枝+量化，~5x 压缩 |
+| 2026-05-09 | [NiFi](#6-nix-and-fix-targeting-1000x-compression-of-3d-gaussian-splatting-with-diffusion-models) | 2602.04549 | 扩散模型一步蒸馏，1000x 压缩 |
+| 2026-05-09 | ★ **[Turbo-GS](#7-turbo-gs-accelerating-3d-gaussian-fitting-for-high-quality-radiance-fields)** | 2412.13547 | 稀释渲染+收敛感知预算 (CVPR'26) |
 
 **概要**: 提升 3DGS 渲染性能或降低存储开销，包括硬件加速、包围盒裁剪、剪枝量化、后处理超采样等。
 
@@ -76,7 +80,9 @@
 | 2026-05-11 | [AdaptSplat](#2-adaptsplat-adapting-vision-foundation-models-for-feed-forward-3d-gaussian-splatting) | 2605.10239 | 频率保持适配器，1.5M 参数 |
 | 2026-05-10 | [ConFixGS](#1-confixgs-learning-to-fix-feedforward-3d-gaussian-splatting-with-confidence-aware-diffusion-priors-in-driving-scenes) | 2605.09688 | 置信感知扩散修复 |
 | 2026-05-08 | [SplatWeaver](#8-splatweaver-learning-to-allocate-gaussian-primitives-for-generalizable-novel-view-synthesis) | 2605.07287 | 动态基元分配，像素级路由 |
+| 2026-05-09 | ★ **[Turbo-GS](#7-turbo-gs-accelerating-3d-gaussian-fitting-for-high-quality-radiance-fields)** | 2412.13547 | 稀释渲染+收敛感知预算，加速 3DGS 拟合 (CVPR'26) |
 | 2026-05-06 | [Ground4D](#6-ground4d-spatially-grounded-feedforward-4d-reconstruction-for-unstructured-off-road-scenes) | 2605.04435 | 空间锚定前向 4D，越野场景 |
+| 2026-05-06 | [KFC-W](#10-kfc-w-generating-3d-consistent-videos-from-unposed-internet-photos) | 2411.13549 | 自监督 3D 感知视频模型 |
 
 ### 3.2 稀疏视角 {#cat-nvs-sparse}
 
@@ -102,7 +108,11 @@
 | 2026-05-17 | [GEM](#1-gem-gaussian-evolution-model-for-occupancy-forecasting-and-motion-planning) | 2605.17682 | 非自回归 4D 世界模型，占用预测 |
 | 2026-05-12 | ★ **[Retrospective Dynamic NVS](#3-3d-gaussian-splatting-for-efficient-retrospective-dynamic-scene-novel-view-synthesis-with-a-standardized-benchmark)** | 2605.12437 | 同步多视图回溯重建 (CVPR'26) |
 | 2026-05-11 | [DySurface](#4-dysurface-consistent-4d-surface-reconstruction-via-bridging-explicit-gaussians-and-implicit-functions) | 2605.10360 | 显式高斯+隐式 SDF 桥接 |
+| 2026-05-06 | ★ **[RetimeGS](#7-retimogs-continuous-time-reconstruction-of-4d-gaussian-splatting)** | 2603.13783 | 连续时间 4DGS 重建 (CVPR'26) |
+| 2026-05-06 | ★ **[LTGS](#8-ltgs-long-term-gaussian-scene-chronology-from-sparse-view-updates)** | 2510.09881 | 长期高斯场景编年史 (CVPR'26 Findings) |
+| 2026-05-06 | [RoDyGS](#9-rodysg-robust-dynamic-gaussian-splatting-for-casual-videos) | 2412.03077 | 鲁棒动态 3DGS，休闲视频 |
 | 2026-05-05 | [FreeTimeGS++](#1-freetimesgs-secrets-of-dynamic-gaussian-splatting-and-their-principles) | 2605.03337 | 4DGS 关键因子分析，门控边缘化 |
+| 2026-05-11 | [4D-NVS](#7-4d-neural-voxel-splatting-dynamic-scene-rendering-with-voxelized-gaussian-splatting) | 2511.00560 | 4D 神经体素光栅化，形变场 |
 
 **概要**: 处理随时间变化的动态场景，包括 4D 高斯表示、动态表面重建、时序一致性等。
 
@@ -145,6 +155,7 @@
 |------|------|-------|--------|
 | 2026-05-16 | ★ **[P2GS](#3-p2gs-physical-prior-guided-gaussian-splatting-for-photometrically-consistent-urban-reconstruction)** | 2605.16925 | 物理先引导光度一致重建 (CVPR'26) |
 | 2026-05-13 | [HarmoGS](#2-harmogs-robust-3d-gaussian-splatting-in-the-wild-via-conflict-aware-gradient-harmonization) | 2605.13073 | 冲突感知梯度调和，野生场景 |
+| 2026-05-09 | [ELoG-GS](#5-elog-gs-dual-branch-gaussian-splatting-with-luminance-guided-enhancement-for-extreme-low-light-3d-reconstruction) | 2604.12592 | 亮度引导双分支 3DGS，极弱光重建 |
 | 2026-05-08 | [High-Fidelity Surface Splatting](#6-high-fidelity-surface-splatting-based-3d-reconstruction-from-multi-view-images) | 2605.07254 | 多项式核 IMLS，高频几何保真 |
 | 2026-05-08 | [AsyncEvGS](#3-asyncevs-asynchronous-event-assisted-gaussian-splatting-for-handheld-motion-blurred-scenes) | 2605.07192 | 异步事件辅助，运动模糊场景 |
 | 2026-05-02 | ★ **[SplAttN](#1-splatttn-bridging-2d-and-3d-with-gaussian-soft-splatting-and-attention-for-point-cloud-completion)** | 2605.01466 | 高斯软光栅化，点云补全 (ICML'26 Spotlight) |
@@ -199,8 +210,10 @@
 |------|------|-------|--------|
 | 2026-05-18 | ★ **[GAI-GS](#5-a-geometric-algebra-informed-3d-gaussian-splatting-framework-for-wireless-scene-representation)** | 2605.19065 | 几何代数引导无线场景建模 (CVPR'26) |
 | 2026-05-14 | [Eff-WRFGS](#1-eff-wrfgs-efficient-wireless-radiance-field-using-3d-gaussian-splatting) | 2605.15324 | 可学习掩码裁剪，存储减 44x |
+| 2026-05-08 | [PropSplat](#9-propsplat-map-free-rf-field-reconstruction-via-3d-gaussian-propagation-splatting) | 2605.08035 | 无地图 RF 场重建 (IEEE DySPAN'26) |
 | 2026-05-12 | [XFreq-GS](#1-xfreq-gs-cross-frequency-wireless-radiation-field-reconstruction-with-3d-gaussian-splatting) | 2605.11432 | 共享几何+频率自适应，跨频率泛化 |
 | 2026-05-08 | [Differentiable Ray Tracing](#5-differentiable-ray-tracing-with-gaussians-for-unified-radio-propagation-simulation-and-view-synthesis) | 2605.07781 | 高斯可微光线追踪，统一射频+视图 |
+| 2026-05-06 | [Radio Map Tutorial](#11-a-tutorial-on-learning-based-radio-map-construction-data-paradigms-and-physics-awareness) | 2603.17499 | 学习型无线电地图构建教程，3DGS 辐射场建模 |
 
 **概要**: 将 3DGS 用于无线信道辐射场建模和射频传播仿真。
 
@@ -222,6 +235,7 @@
 |------|------|-------|--------|
 | 2026-05-20 | [RCGDet3D](#1-rcgdet3d-rethinking-4d-radar-camera-fusion-based-3d-object-detection-with-enhanced-radar-feature-encoding) | 2605.21112 | 高斯编码雷达特征增强，雷达-相机融合 3D 检测 |
 | 2026-05-15 | [GSDrive](#5-gsdrive-reinforcing-driving-policies-by-multi-mode-future-trajectory-probing-with-3d-gaussian-splatting-environment) | 2604.28111 | 3DGS 环境多模式轨迹探测+RL 强化驾驶 (v2) |
+| 2026-05-08 | [LR-SGS](#10-lr-sgs-robust-lidar-reflectance-guided-salient-gaussian-splatting-for-self-driving-scene-reconstruction) | 2603.12647 | 激光雷达反射率引导显著高斯 |
 | 2026-05-12 | [PointForward](#6-pointforward-feedforward-driving-reconstruction-through-point-aligned-representations) | 2605.11594 | 空间稀疏查询，前向驾驶重建 |
 | 2026-05-09 | [REAP](#3-reap-reinforcement-learning-end-to-end-autonomous-parking-with-gaussian-splatting-simulator-for-real2sim2real-transfer) | 2605.08713 | 3DGS 模拟器，RL 端到端泊车 |
 | 2026-05-03 | [3DGS for ADS Editing](#1-from-concept-to-capability-evaluating-3d-gaussian-splatting-for-synthetic-scene-editing-in-autonomous-driving) | 2605.01995 | 合成场景编辑 fidelity 评估 |
@@ -276,21 +290,21 @@
 
 | 类别 | 论文数 |
 |------|--------|
-| 核心算法与优化 | 11 |
-| 新视角合成 | 17 |
-| 几何与表面重建 | 6 |
+| 新视角合成 | 19 |
+| 其他应用 | 14 |
+| 核心算法与优化 | 12 |
+| 动态场景与 4D | 10 |
+| 渲染加速与压缩 | 9 |
 | 语义分割与场景理解 | 9 |
-| 动态场景与 4D | 6 |
-| 视觉定位 | 4 |
-| 渲染加速与压缩 | 6 |
-| 自动驾驶应用 | 5 |
 | 机器人、SLAM 与具身智能 | 8 |
+| 几何与表面重建 | 7 |
+| 自动驾驶应用 | 6 |
+| 无线与射频传播 | 6 |
+| 视觉定位 | 4 |
+| 逆渲染与光照 | 4 |
 | 生成式模型 | 4 |
 | 流媒体与编码 | 4 |
-| 无线与射频传播 | 4 |
-| 逆渲染与光照 | 4 |
 | 安全与版权 | 1 |
-| 其他应用 | 14 |
-| **合计（含重复）** | **109** |
+| **合计（含重复）** | **117** |
 
-> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 109 而非 108。原始论文总数为 103 篇（5 月 1 日至 5 月 22 日）。
+> 注：GEM 同时归属"动态场景与 4D"和"其他应用"；Turbo-GS 同时归属"渲染加速与压缩"和"新视角合成"，故合计为 117 而非 115。原始论文总数为 116 篇（5 月 1 日至 5 月 22 日）。
