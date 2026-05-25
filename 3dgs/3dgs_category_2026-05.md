@@ -94,6 +94,7 @@
 | 2026-05-12 | [PairDropGS](#7-pairdropgs-paired-dropout-induced-consistency-regularization-for-sparse-view-gaussian-splatting) | 2605.12072 | 成对 Dropout 一致性正则化 |
 | 2026-05-12 | ★ **[GeoQuery](#8-geoquery-geometry-query-diffusion-for-sparse-view-reconstruction)** | 2605.12399 | 几何引导扩散修复伪像 (SIGGRAPH'26) |
 | 2026-05-08 | [SatSurfGS](#2-satsurfgs-generalizable-2d-gaussian-splatting-for-sparse-view-satellite-surface-reconstruction) | 2605.07181 | 2DGS 可泛化卫星表面重建 |
+| 2026-05-04 | [LGDWT-GS](#3-lgdwt-gs-local-and-global-discrete-wavelet-regularized-3d-gaussian-splatting-for-sparse-view-scene-reconstruction) | 2601.17185 | 局部+全局小波正则化稀疏视角重建 |
 
 **概要**: 无需逐场景优化即可合成新视角（可泛化/前向方法），或从极少输入视角重建场景（稀疏视角方法）。
 
@@ -111,6 +112,7 @@
 | 2026-05-06 | ★ **[RetimeGS](#7-retimogs-continuous-time-reconstruction-of-4d-gaussian-splatting)** | 2603.13783 | 连续时间 4DGS 重建 (CVPR'26) |
 | 2026-05-06 | ★ **[LTGS](#8-ltgs-long-term-gaussian-scene-chronology-from-sparse-view-updates)** | 2510.09881 | 长期高斯场景编年史 (CVPR'26 Findings) |
 | 2026-05-06 | [RoDyGS](#9-rodysg-robust-dynamic-gaussian-splatting-for-casual-videos) | 2412.03077 | 鲁棒动态 3DGS，休闲视频 |
+| 2026-05-04 | ★ **[Flux4D](#6-flux4d-flow-based-unsupervised-4d-reconstruction)** | 2512.03210 | 无监督流式 4D 重建 (NeurIPS'25) |
 | 2026-05-05 | [FreeTimeGS++](#1-freetimesgs-secrets-of-dynamic-gaussian-splatting-and-their-principles) | 2605.03337 | 4DGS 关键因子分析，门控边缘化 |
 | 2026-05-11 | [4D-NVS](#7-4d-neural-voxel-splatting-dynamic-scene-rendering-with-voxelized-gaussian-splatting) | 2511.00560 | 4D 神经体素光栅化，形变场 |
 
@@ -131,6 +133,8 @@
 | 2026-05-07 | [OpenGaFF](#2-opengaff-open-vocabulary-gaussian-feature-field-with-codebook-attention) | 2605.06088 | 码本注意力，开放词汇特征场 |
 | 2026-05-06 | [Ilov3Splat](#2-ilov3splat-instance-level-open-vocabulary-3d-scene-understanding-in-gaussian-splatting) | 2605.04506 | 实例级开放词汇场景理解 |
 | 2026-05-03 | ★ **[GLMap](#3-multi-scale-gaussian-language-map-for-zero-shot-embodied-navigation-and-reasoning)** | 2605.01736 | 多尺度高斯-语言地图 (CVPR'26) |
+| 2026-05-04 | [Chorus](#5-chorus-multi-teacher-pretraining-for-holistic-3d-gaussian-scene-encoding) | 2512.17817 | 多教师蒸馏 3DGS 场景编码器 |
+| 2026-05-01 | ★ **[Semantic Foam](#4-semantic-foam-unifying-spatial-and-semantic-scene-decomposition)** | 2604.26262 | Voronoi 网格+语义场，对象级分解 (CVPR'26 Highlight) |
 
 **概要**: 3DGS 上的语义分割、开放词汇场景理解、语言 grounding 和物体级提取。
 
@@ -173,6 +177,7 @@
 | 2026-05-09 | [Relightable GS for VP](#1-relightable-gaussian-splatting-for-virtual-production-using-image-based-illumination) | 2605.09024 | 基于图像照明的重光照 |
 | 2026-05-07 | [3DSS](#3-3dss-3d-surface-splatting-for-inverse-rendering) | 2605.05876 | 首个表面光栅化可微逆渲染器 |
 | 2026-05-01 | [GOR-IS](#3-gor-is-3d-gaussian-object-removal-in-the-intrinsic-space) | 2605.00498 | 内秉空间物体移除，全局光照一致 |
+| 2026-05-01 | [LCD-GS](#6-high-dynamic-range-3d-gaussian-splatting-via-luminance-chromaticity-decomposition) | 2511.12895 | 亮度-色度解耦 HDR 3DGS |
 
 **概要**: 从渲染结果反推材质、光照、形状等内秉属性，或实现物理一致的重光照。
 
@@ -186,6 +191,7 @@
 | 2026-05-18 | [GaussianZoom](#8-gaussianzoom-progressive-zoom-in-generative-3d-gaussian-splatting-with-geometric-and-semantic-guidance) | 2605.18252 | 渐进式生成放大，几何+语义引导 |
 | 2026-05-08 | ★ **[DeG](#7-generative-3d-gaussians-with-learned-density-control)** | 2605.16355 | Octree+扩散模型，学习密度控制 (SIGGRAPH'26) |
 | 2026-05-14 | [3DEditSafe](#4-3d-editsafe-defending-3d-editing-pipelines-from-unsafe-generation) | 2605.15398 | 3DGS 文本驱动编辑安全防御 |
+| 2026-05-01 | [VecSet-Edit](#5-vecset-edit-unleashing-pre-trained-lrm-for-mesh-editing-from-single-image) | 2602.04349 | VecSet LRM 骨干单图网格编辑 |
 
 **概要**: 使用扩散模型、自回归模型等生成式方法生成或编辑 3DGS 场景。
 
@@ -237,6 +243,8 @@
 | 2026-05-15 | [GSDrive](#5-gsdrive-reinforcing-driving-policies-by-multi-mode-future-trajectory-probing-with-3d-gaussian-splatting-environment) | 2604.28111 | 3DGS 环境多模式轨迹探测+RL 强化驾驶 (v2) |
 | 2026-05-08 | [LR-SGS](#10-lr-sgs-robust-lidar-reflectance-guided-salient-gaussian-splatting-for-self-driving-scene-reconstruction) | 2603.12647 | 激光雷达反射率引导显著高斯 |
 | 2026-05-12 | [PointForward](#6-pointforward-feedforward-driving-reconstruction-through-point-aligned-representations) | 2605.11594 | 空间稀疏查询，前向驾驶重建 |
+| 2026-05-02 | ★ **[SaLF](#4-salf-sparse-local-fields-for-multi-sensor-rendering-in-real-time)** | 2507.18713 | 稀疏局部场多传感器实时渲染 (ICRA'26) |
+| 2026-05-02 | [3DGS vs Moving Objects](#5-3d-gaussian-splatting-against-moving-objects-for-high-fidelity-street-scene-reconstruction) | 2503.12001 | 自适应透明度移除运动物体，街道场景重建 |
 | 2026-05-09 | [REAP](#3-reap-reinforcement-learning-end-to-end-autonomous-parking-with-gaussian-splatting-simulator-for-real2sim2real-transfer) | 2605.08713 | 3DGS 模拟器，RL 端到端泊车 |
 | 2026-05-03 | [3DGS for ADS Editing](#1-from-concept-to-capability-evaluating-3d-gaussian-splatting-for-synthetic-scene-editing-in-autonomous-driving) | 2605.01995 | 合成场景编辑 fidelity 评估 |
 
@@ -254,6 +262,7 @@
 | 2026-05-12 | ★ **[Compact 3DGS SLAM](#9-compact-3d-gaussian-splatting-for-dense-visual-slam)** | 2403.11247 | 滑动窗口掩码+几何码本压缩 (IJCV'26) |
 | 2026-05-11 | [MAGS-SLAM](#5-mags-slam-monocular-multi-agent-gaussian-splatting-slam-for-geometrically-and-photometrically-consistent-reconstruction) | 2605.10760 | 仅 RGB 多智能体 3DGS SLAM |
 | 2026-05-11 | [VEGA](#6-vega-visual-encoder-grounding-alignment-for-spatially-aware-vision-language-action-models) | 2605.10485 | 3DGS 监督 VLA 空间感知对齐 |
+| 2026-05-04 | ★ **[Digital Twin](#4-a-high-fidelity-digital-twin-for-robotic-manipulation-based-on-3d-gaussian-splatting)** | 2601.03200 | 3DGS 高保真数字孪生，机器人操作 (JRL) |
 | 2026-05-02 | [DMP for IL](#2-a-principled-approach-for-creating-high-fidelity-synthetic-demonstrations-for-imitation-learning) | 2605.01232 | 3DGS 场景+DMP 模仿学习演示 |
 | 2026-05-02 | [TAIL-Safe](#3-tail-safe-task-agnostic-safety-monitoring-for-imitation-learning-policies) | 2605.01195 | 3DGS 数字孪生，安全监控 IL |
 
@@ -279,6 +288,10 @@
 | 2026-05-06 | [CoherentRaster](#1-coherentraster-efficient-3d-gaussian-splatting-for-light-field-displays) | 2605.04509 | 子像素光栅化，光场显示 |
 | 2026-05-06 | [Aes3D](#4-aes3d-aesthetic-assessment-in-3d-gaussian-splatting) | 2605.05155 | 3DGS 场景美学评估框架 |
 | 2026-05-04 | [HumanSplatHMR](#1-humansplathmr-closing-the-loop-between-human-mesh-recovery-and-gaussian-splatting-avatar) | 2605.02784 | 姿态估计+数字人渲染闭环 |
+| 2026-05-04 | ★ **[VRGaussianAvatar](#2-vrgaussianavatar-integrating-3d-gaussian-avatars-into-vr)** | 2602.01674 | HMD 驱动的实时 3DGS VR 数字人 (IEEE VR'26) |
+| 2026-05-04 | [AR Disaster Response](#7-interactive-augmented-reality-enabled-outdoor-scene-visualization-for-enhanced-real-time-disaster-response) | 2602.21874 | 3DGS 户外 AR 灾难响应可视化 |
+| 2026-05-03 | [DynFOA](#4-dynfoa-generating-first-order-ambisonics-with-conditional-diffusion-for-dynamic-and-acoustically-complex-360-degree-videos) | 2602.06846 | 3DGS 场景重建+扩散模型生成空间音频 |
+| 2026-05-02 | [GSDeformer](#6-gsdeformer-direct-real-time-and-extensible-cage-based-deformation-for-3d-gaussian-splatting) | 2405.15491 | 3DGS 笼形形变，实时可扩展 |
 
 * GEM 同时在"动态场景与 4D"中列出。
 
@@ -290,21 +303,21 @@
 
 | 类别 | 论文数 |
 |------|--------|
-| 新视角合成 | 19 |
-| 其他应用 | 14 |
+| 新视角合成 | 20 |
+| 其他应用 | 18 |
 | 核心算法与优化 | 12 |
-| 动态场景与 4D | 10 |
+| 动态场景与 4D | 11 |
+| 语义分割与场景理解 | 11 |
 | 渲染加速与压缩 | 9 |
-| 语义分割与场景理解 | 9 |
-| 机器人、SLAM 与具身智能 | 8 |
+| 机器人、SLAM 与具身智能 | 9 |
 | 几何与表面重建 | 7 |
-| 自动驾驶应用 | 6 |
+| 自动驾驶应用 | 8 |
 | 无线与射频传播 | 6 |
 | 视觉定位 | 4 |
-| 逆渲染与光照 | 4 |
-| 生成式模型 | 4 |
+| 逆渲染与光照 | 5 |
+| 生成式模型 | 5 |
 | 流媒体与编码 | 4 |
 | 安全与版权 | 1 |
-| **合计（含重复）** | **117** |
+| **合计（含重复）** | **130** |
 
-> 注：GEM 同时归属"动态场景与 4D"和"其他应用"；Turbo-GS 同时归属"渲染加速与压缩"和"新视角合成"，故合计为 117 而非 115。原始论文总数为 116 篇（5 月 1 日至 5 月 22 日）。
+> 注：GEM 同时归属"动态场景与 4D"和"其他应用"；Turbo-GS 同时归属"渲染加速与压缩"和"新视角合成"，故合计为 130 而非 128。原始论文总数为 129 篇（5 月 1 日至 5 月 22 日）。
