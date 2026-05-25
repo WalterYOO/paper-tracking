@@ -66,6 +66,9 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-22 | ★ **[GlowGS](#2-glowgs-generative-semantic-feature-learning-for-3d-gaussian-splatting-in-nighttime-glow-scenes)** | 2605.23602 | 夜间光晕场景，扩散模型+VFM 语义特征 (CVPR Findings'26) |
+| 2026-05-22 | ★ **[LangFlash](#3-langflash-feed-forward-3d-language-gaussian-splatting-from-sparse-unposed-images)** | 2605.23287 | 前向 3D 语言高斯拼接，无需位姿 (CVPR Findings'26) |
+| 2026-05-21 | [ForeSplat](#4-foresplat-optimization-aware-foresight-for-feed-forward-3d-gaussian-splatting) | 2605.22020 | 优化感知前向训练，元梯度加速收敛 |
 | 2026-05-19 | [Cross-View Splatter](#5-cross-view-splatter-feed-forward-view-synthesis-with-georeferenced-images) | 2605.19656 | 卫星+街景融合，地理参考前向合成 |
 | 2026-05-13 | [RoSplat](#4-rosplat-robust-feed-forward-pixel-wise-gaussian-splatting-for-varying-input-views-and-high-resolution-rendering) | 2605.13093 | alpha 归一化，多视角鲁棒 |
 | 2026-05-13 | ★ **[Z-Order Transformer for 3DGS](#5-z-order-transformer-for-feed-forward-gaussian-splatting)** | 2605.13465 | Z 序稀疏注意力，单次前向 (CVPR'26 Oral) |
@@ -78,6 +81,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-21 | ★ **[TWINGS](#3-twings-thin-plate-splines-warp-aligned-initialization-for-sparse-view-gaussian-splatting)** | 2605.22069 | 薄板样条形变对齐初始化 (CVPR'25) |
 | 2026-05-19 | [AnyCity](#4-feed-forward-gaussian-splatting-from-sparse-aerial-views) | 2605.19949 | 稀疏航拍前向 3DGS，生成式城市重建 |
 | 2026-05-13 | [PanoPlane](#1-panoplane-plane-aware-panoramic-completion-for-sparse-view-indoor-3d-gaussian-splatting) | 2605.14135 | 平面感知全景补全，3 视图 SOTA |
 | 2026-05-12 | [PairDropGS](#7-pairdropgs-paired-dropout-induced-consistency-regularization-for-sparse-view-gaussian-splatting) | 2605.12072 | 成对 Dropout 一致性正则化 |
@@ -92,6 +96,8 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-22 | [RiGS](#1-rigs-rigid-aware-4d-gaussian-splatting-from-a-single-monocular-video) | 2605.23672 | 三类高斯基元，跨时尺度 4D 动态场景重建 |
+| 2026-05-21 | [NoPo4D](#2-nopo4d-feed-forward-dynamic-gaussians-from-unposed-multi-view-videos) | 2605.22190 | 前向动态 4D Gaussian，无需位姿 |
 | 2026-05-17 | [GEM](#1-gem-gaussian-evolution-model-for-occupancy-forecasting-and-motion-planning) | 2605.17682 | 非自回归 4D 世界模型，占用预测 |
 | 2026-05-12 | ★ **[Retrospective Dynamic NVS](#3-3d-gaussian-splatting-for-efficient-retrospective-dynamic-scene-novel-view-synthesis-with-a-standardized-benchmark)** | 2605.12437 | 同步多视图回溯重建 (CVPR'26) |
 | 2026-05-11 | [DySurface](#4-dysurface-consistent-4d-surface-reconstruction-via-bridging-explicit-gaussians-and-implicit-functions) | 2605.10360 | 显式高斯+隐式 SDF 桥接 |
@@ -105,6 +111,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-21 | [SpaceDG](#1-spacedg-benchmarking-spatial-intelligence-under-visual-degradation) | 2605.22536 | 视觉降质下空间智能基准，3DGS 渲染退化合成 |
 | 2026-05-19 | [OP2GS](#3-op2gs-object-aware-3d-gaussian-splatting-with-dual-opacity-primitives) | 2605.20044 | 双透明度原语，对象感知分割 |
 | 2026-05-15 | [Prior-Guided 3DGS Segmentation](#1-robust-prior-guided-segmentation-for-editable-3d-gaussian-splatting) | 2605.16065 | SAM-HQ 先验引导，多视角一致分割 |
 | 2026-05-13 | [SCOUP](#6-sparse-code-uplifting-for-efficient-3d-language-gaussian-splatting) | 2605.13600 | 稀疏码本提升，训练提速 400x |
@@ -225,6 +232,7 @@
 
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
+| 2026-05-22 | [GAF](#4-gaf-gaussian-action-field-as-a-4d-representation-for-dynamic-world-modeling-in-robotic-manipulation) | 2506.14135 | 高斯动作场 4D 表示，机器人操作动态世界建模 |
 | 2026-05-19 | [Conflict-Aware CBF Navigation](#1-conflict-aware-active-perception-and-control-in-3d-gaussian-splatting-fields-via-control-barrier-functions) | 2605.20566 | CBF 导航，避障与数据采集统一优化 |
 | 2026-05-11 | [MAGS-SLAM](#5-mags-slam-monocular-multi-agent-gaussian-splatting-slam-for-geometrically-and-photometrically-consistent-reconstruction) | 2605.10760 | 仅 RGB 多智能体 3DGS SLAM |
 | 2026-05-11 | [VEGA](#6-vega-visual-encoder-grounding-alignment-for-spatially-aware-vision-language-action-models) | 2605.10485 | 3DGS 监督 VLA 空间感知对齐 |
@@ -262,20 +270,20 @@
 | 类别 | 论文数 |
 |------|--------|
 | 核心算法与优化 | 11 |
-| 新视角合成 | 12 |
+| 新视角合成 | 16 |
 | 几何与表面重建 | 6 |
-| 语义分割与场景理解 | 8 |
-| 动态场景与 4D | 4 |
+| 语义分割与场景理解 | 9 |
+| 动态场景与 4D | 6 |
 | 视觉定位 | 4 |
 | 渲染加速与压缩 | 6 |
 | 自动驾驶应用 | 4 |
-| 机器人、SLAM 与具身智能 | 5 |
+| 机器人、SLAM 与具身智能 | 6 |
 | 生成式模型 | 4 |
 | 流媒体与编码 | 4 |
 | 无线与射频传播 | 4 |
 | 逆渲染与光照 | 4 |
 | 安全与版权 | 1 |
 | 其他应用 | 11 |
-| **合计（含重复）** | **88** |
+| **合计（含重复）** | **100** |
 
-> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 88 而非 87。原始论文总数为 87 篇（5 月 1 日至 5 月 20 日）。
+> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 100 而非 99。原始论文总数为 95 篇（5 月 1 日至 5 月 22 日）。
