@@ -68,6 +68,7 @@
 |------|------|-------|--------|
 | 2026-05-22 | ★ **[GlowGS](#2-glowgs-generative-semantic-feature-learning-for-3d-gaussian-splatting-in-nighttime-glow-scenes)** | 2605.23602 | 夜间光晕场景，扩散模型+VFM 语义特征 (CVPR Findings'26) |
 | 2026-05-22 | ★ **[LangFlash](#3-langflash-feed-forward-3d-language-gaussian-splatting-from-sparse-unposed-images)** | 2605.23287 | 前向 3D 语言高斯拼接，无需位姿 (CVPR Findings'26) |
+| 2026-05-13 | ★ **[SkySplat](#8-skysplat-generalizable-3d-gaussian-splatting-from-multi-temporal-sparse-satellite-images)** | 2508.09479 | 多时相稀疏卫星图像可泛化 3DGS (AAAI'26) |
 | 2026-05-21 | [ForeSplat](#4-foresplat-optimization-aware-foresight-for-feed-forward-3d-gaussian-splatting) | 2605.22020 | 优化感知前向训练，元梯度加速收敛 |
 | 2026-05-19 | [Cross-View Splatter](#5-cross-view-splatter-feed-forward-view-synthesis-with-georeferenced-images) | 2605.19656 | 卫星+街景融合，地理参考前向合成 |
 | 2026-05-13 | [RoSplat](#4-rosplat-robust-feed-forward-pixel-wise-gaussian-splatting-for-varying-input-views-and-high-resolution-rendering) | 2605.13093 | alpha 归一化，多视角鲁棒 |
@@ -220,6 +221,7 @@
 | 日期 | 论文 | arXiv | 关键词 |
 |------|------|-------|--------|
 | 2026-05-20 | [RCGDet3D](#1-rcgdet3d-rethinking-4d-radar-camera-fusion-based-3d-object-detection-with-enhanced-radar-feature-encoding) | 2605.21112 | 高斯编码雷达特征增强，雷达-相机融合 3D 检测 |
+| 2026-05-15 | [GSDrive](#5-gsdrive-reinforcing-driving-policies-by-multi-mode-future-trajectory-probing-with-3d-gaussian-splatting-environment) | 2604.28111 | 3DGS 环境多模式轨迹探测+RL 强化驾驶 (v2) |
 | 2026-05-12 | [PointForward](#6-pointforward-feedforward-driving-reconstruction-through-point-aligned-representations) | 2605.11594 | 空间稀疏查询，前向驾驶重建 |
 | 2026-05-09 | [REAP](#3-reap-reinforcement-learning-end-to-end-autonomous-parking-with-gaussian-splatting-simulator-for-real2sim2real-transfer) | 2605.08713 | 3DGS 模拟器，RL 端到端泊车 |
 | 2026-05-03 | [3DGS for ADS Editing](#1-from-concept-to-capability-evaluating-3d-gaussian-splatting-for-synthetic-scene-editing-in-autonomous-driving) | 2605.01995 | 合成场景编辑 fidelity 评估 |
@@ -234,6 +236,8 @@
 |------|------|-------|--------|
 | 2026-05-22 | [GAF](#4-gaf-gaussian-action-field-as-a-4d-representation-for-dynamic-world-modeling-in-robotic-manipulation) | 2506.14135 | 高斯动作场 4D 表示，机器人操作动态世界建模 |
 | 2026-05-19 | [Conflict-Aware CBF Navigation](#1-conflict-aware-active-perception-and-control-in-3d-gaussian-splatting-fields-via-control-barrier-functions) | 2605.20566 | CBF 导航，避障与数据采集统一优化 |
+| 2026-05-15 | ★ **[GRaD-Nav++](#6-grad-nav-vision-language-model-enabled-visual-drone-navigation-with-gaussian-radiance-fields-and-differentiable-dynamics)** | 2506.14009 | 3DGS 仿真+DiffRL 语言无人机导航 (IEEE RAL) |
+| 2026-05-12 | ★ **[Compact 3DGS SLAM](#9-compact-3d-gaussian-splatting-for-dense-visual-slam)** | 2403.11247 | 滑动窗口掩码+几何码本压缩 (IJCV'26) |
 | 2026-05-11 | [MAGS-SLAM](#5-mags-slam-monocular-multi-agent-gaussian-splatting-slam-for-geometrically-and-photometrically-consistent-reconstruction) | 2605.10760 | 仅 RGB 多智能体 3DGS SLAM |
 | 2026-05-11 | [VEGA](#6-vega-visual-encoder-grounding-alignment-for-spatially-aware-vision-language-action-models) | 2605.10485 | 3DGS 监督 VLA 空间感知对齐 |
 | 2026-05-02 | [DMP for IL](#2-a-principled-approach-for-creating-high-fidelity-synthetic-demonstrations-for-imitation-learning) | 2605.01232 | 3DGS 场景+DMP 模仿学习演示 |
@@ -249,6 +253,9 @@
 |------|------|-------|--------|
 | 2026-05-19 | [FlyMirage](#6-flymirage-a-fully-automated-generation-pipeline-for-diverse-and-scalable-uav-flight-data-via-generative-world-model) | 2605.19600 | 生成式世界模型，UAV 飞行数据自动生成 |
 | 2026-05-15 | [FLUIDSPLAT](#4-fluidsplat-reconstructing-physical-fields-from-sparse-sensors-via-gaussian-primitives) | 2605.18866 | 高斯基元物理场重建，理论近似率证明 |
+| 2026-05-14 | [St. John's Co-Cathedral](#6-st-johns-co-cathedral-large-scale-photogrammetric-documentation-of-st-johns-co-cathedral-a-workflow-for-cultural-heritage-preservation) | 2604.24316 | 文化遗产摄影测量，300亿三角面 |
+| 2026-05-13 | [G-SHARP](#7-g-sharp-gaussian-surgical-hardware-accelerated-real-time-pipeline) | 2512.02482 | 商用许可实时手术 3DGS (IGX Orin/Thor) |
+| 2026-05-13 | ★ **[3D-UIR](#9-3d-uir-3d-gaussian-for-underwater-3d-scene-reconstruction-via-physics-based-appearance-medium-decoupling)** | 2505.21238 | 物理外观-介质解耦，水下重建 (IEEE TIP'26) |
 | 2026-05-17 | [GEM](#1-gem-gaussian-evolution-model-for-occupancy-forecasting-and-motion-planning) * | 2605.17682 | 4D 世界模型，占用预测+规划 |
 | 2026-05-16 | [Topo-GS](#1-topo-gs-continuous-volumetric-embedding-of-high-dimensional-data-via-topological-gaussian-splatting) | 2605.17011 | 3DGS 复用于降维可视化 |
 | 2026-05-11 | [SDTalk](#3-sdtalk-structured-facial-priors-and-dual-branch-motion-fields-for-generalizable-gaussian-talking-head-synthesis) | 2605.09956 | 单帧可泛化说话人头合成 |
@@ -270,20 +277,20 @@
 | 类别 | 论文数 |
 |------|--------|
 | 核心算法与优化 | 11 |
-| 新视角合成 | 16 |
+| 新视角合成 | 17 |
 | 几何与表面重建 | 6 |
 | 语义分割与场景理解 | 9 |
 | 动态场景与 4D | 6 |
 | 视觉定位 | 4 |
 | 渲染加速与压缩 | 6 |
-| 自动驾驶应用 | 4 |
-| 机器人、SLAM 与具身智能 | 6 |
+| 自动驾驶应用 | 5 |
+| 机器人、SLAM 与具身智能 | 8 |
 | 生成式模型 | 4 |
 | 流媒体与编码 | 4 |
 | 无线与射频传播 | 4 |
 | 逆渲染与光照 | 4 |
 | 安全与版权 | 1 |
-| 其他应用 | 11 |
-| **合计（含重复）** | **100** |
+| 其他应用 | 14 |
+| **合计（含重复）** | **109** |
 
-> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 100 而非 99。原始论文总数为 95 篇（5 月 1 日至 5 月 22 日）。
+> 注：GEM 同时归属"动态场景与 4D"和"其他应用"，故合计为 109 而非 108。原始论文总数为 103 篇（5 月 1 日至 5 月 22 日）。
