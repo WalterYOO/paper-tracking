@@ -6,7 +6,7 @@
 
 ## 目录
 
-| 日期 | 论文 | arXiv | 类别 | 简述 |
+| 日期 | 论文 | arXiv | 类别 | 概述 |
 |------|------|-------|------|------|
 | 2026-05-18 | [PanoWorld](#1-panoworld-a-generative-spatial-world-model-for-consistent-whole-house-panorama-synthesis) | [2605.17916](https://arxiv.org/abs/2605.17916) | cs.CV | 自回归全屋全景生成，3DGS 作为空间记忆缓存 |
 | 2026-05-17 | [GEM](#1-gem-gaussian-evolution-model-for-occupancy-forecasting-and-motion-planning) | [2605.17682](https://arxiv.org/abs/2605.17682) | cs.CV | 非自回归 4D Gaussian 世界模型，自动驾驶占用预测与规划 |
