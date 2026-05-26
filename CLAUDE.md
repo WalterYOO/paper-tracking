@@ -29,18 +29,16 @@
 
 ## 工作流程
 
-1. 使用 `arxiv-search` skill 获取论文列表
-2. 将论文简述更新到对应领域的月度文件中（详见 [月度文档规范](.claude/rules/monthly-doc-rules.md)）
-   - 文件名格式：`<领域>_<YYYY-MM>.md`
-   - 每月一个文件，当月论文写入对应月份的文件
-   - 格式参考 `tracking_sample.md` 模板
-3. 同步创建或更新分类文档（详见 [分类文档规范](.claude/rules/category-doc-rules.md)）
-   - 若该月分类文档不存在，参考 `category_template.md` 格式创建
-   - 从月度文件中读取论文，阅读论文摘要，根据论文内容进行分类
-   - 若类别已存在，将新论文归入对应类别，如无对应类别，则创建新的类别
-   - 一篇论文有可能被分到两个类别，这是正常的
-   - 更新底部的统计概览
-4. 提交更改并推送到远程仓库
+1. **搜索论文** — 使用 `arxiv-search` skill 按关键词和日期范围获取论文列表
+2. **更新月度文件** — 将论文写入 `<领域>/<领域>_<YYYY-MM>.md`
+   - 若该月文件不存在，参考 `tracking_sample.md` 创建
+   - 按日期降序插入，注意表格行与正文区块同步（详见 [月度文档规范](.claude/rules/monthly-doc-rules.md)）
+   - 若论文已存在，更新版本号及摘要内容
+3. **更新分类文档** — 编辑 `<领域>/<领域>_category_<YYYY-MM>.md`
+   - 若该月分类文档不存在，参考 `category_template.md` 创建
+   - 从月度文件读取论文，按内容归入对应类别，一篇论文可归入多个类别（详见 [分类文档规范](.claude/rules/category-doc-rules.md)）
+   - 更新底部统计概览
+4. **提交推送** — `git commit` 并 `git push`
 
 ### 论文版本处理
 
