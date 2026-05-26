@@ -30,11 +30,11 @@
 ## 工作流程
 
 1. 使用 `arxiv-search` skill 获取论文列表
-2. 将论文简述更新到对应领域的月度文件中（详见"月度文档规范"）
+2. 将论文简述更新到对应领域的月度文件中（详见 [.claude/rules/monthly-doc-rules.md](.claude/rules/monthly-doc-rules.md)）
    - 文件名格式：`<领域>_<YYYY-MM>.md`
    - 每月一个文件，当月论文写入对应月份的文件
    - 格式参考 `tracking_sample.md` 模板
-3. 同步创建或更新分类文档（详见"分类文档规范"）
+3. 同步创建或更新分类文档（详见 [.claude/rules/category-doc-rules.md](.claude/rules/category-doc-rules.md)）
    - 若该月分类文档不存在，参考 `category_template.md` 格式创建
    - 论文类别需要根据对应月份的论文清单具体划分
    - 若已存在，将新论文归入对应类别，如无对应类别，则创建新的类别
