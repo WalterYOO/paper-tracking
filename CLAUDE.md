@@ -29,15 +29,12 @@
 
 ## 工作流程
 
-1. **搜索论文** — 使用 `arxiv-search` skill 按关键词和日期范围获取论文列表
-2. **更新月度文件** — 将论文写入 `<领域>/<领域>_<YYYY-MM>.md`
-   - 若该月文件不存在，参考 `tracking_sample.md` 创建
-   - 按日期降序插入，注意表格行与正文区块同步（详见 [月度文档规范](.claude/rules/monthly-doc-rules.md)）
-   - 若论文已存在，更新版本号及摘要内容
-3. **更新分类文档** — 编辑 `<领域>/<领域>_category_<YYYY-MM>.md`
-   - 若该月分类文档不存在，参考 `category_template.md` 创建
-   - 从月度文件读取论文，按内容归入对应类别，一篇论文可归入多个类别（详见 [分类文档规范](.claude/rules/category-doc-rules.md)）
-   - 更新底部统计概览
+1. **搜索论文** — 使用 `arxiv-search` skill 按关键词和日期范围获取论文列表，输出为 JSON 文件
+2. **生成月度文档和分类文档** — 使用 `arxiv-to-tracking` skill 处理 JSON 文件
+   - LLM 处理阶段：对每篇论文完成摘要翻译、概述提取、亮点判断、分类、关键词生成
+   - 月度文档生成阶段：将处理后的数据渲染为 `<领域>/<领域>_<YYYY-MM>.md`
+   - 分类文档生成阶段：将论文按研究方向归类，生成 `<领域>/<领域>_category_<YYYY-MM>.md`
+3. **校验** — 检查生成文档是否符合 [月度文档规范](.claude/rules/monthly-doc-rules.md) 和 [分类文档规范](.claude/rules/category-doc-rules.md)
 4. **提交推送** — `git commit` 并 `git push`
 
 ### 论文版本处理
